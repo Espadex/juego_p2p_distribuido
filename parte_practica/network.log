@@ -1,0 +1,95 @@
+2025-05-11 23:13:21,668 - connector - INFO - Starting connector with host=localhost, port=80, elixir_path=d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-11 23:13:21,668 - network_interface - INFO - Starting Elixir node at d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-11 23:13:21,671 - network_interface - ERROR - Error starting Elixir node: [WinError 2] The system cannot find the file specified
+2025-05-11 23:13:21,671 - connector - WARNING - Failed to start Elixir node
+2025-05-11 23:13:21,672 - connector - INFO - Starting message listener thread
+2025-05-11 23:13:21,674 - connector - INFO - Listening for Elixir messages on port 4040
+2025-05-11 23:13:23,729 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:13:23,732 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:26:45,795 - connector - INFO - Game interrupted by user
+2025-05-11 23:26:45,795 - connector - INFO - Cleaning up resources
+2025-05-11 23:26:45,795 - network_interface - INFO - Disconnected from discovery server
+2025-05-11 23:26:56,147 - connector - INFO - Starting connector with host=localhost, port=80, elixir_path=d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-11 23:26:56,147 - network_interface - INFO - Starting Elixir node at d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-11 23:26:56,150 - network_interface - ERROR - Error starting Elixir node: [WinError 2] The system cannot find the file specified
+2025-05-11 23:26:56,150 - connector - WARNING - Failed to start Elixir node
+2025-05-11 23:26:56,153 - connector - INFO - Starting message listener thread
+2025-05-11 23:26:56,156 - connector - INFO - Listening for Elixir messages on port 4040
+2025-05-11 23:26:58,167 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:26:58,168 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:27:08,935 - connector - INFO - Game interrupted by user
+2025-05-11 23:27:08,935 - connector - INFO - Cleaning up resources
+2025-05-11 23:27:08,935 - network_interface - INFO - Disconnected from discovery server
+2025-05-11 23:27:43,011 - connector - INFO - Starting connector with host=localhost, port=80, elixir_path=d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-11 23:27:43,011 - network_interface - INFO - Starting Elixir node at d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-11 23:27:43,014 - network_interface - ERROR - Error starting Elixir node: [WinError 2] The system cannot find the file specified
+2025-05-11 23:27:43,014 - connector - WARNING - Failed to start Elixir node
+2025-05-11 23:27:43,015 - connector - INFO - Starting message listener thread
+2025-05-11 23:27:43,017 - connector - INFO - Listening for Elixir messages on port 4040
+2025-05-11 23:27:45,043 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:27:45,043 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:27:54,517 - connector - INFO - Starting connector with host=localhost, port=80, elixir_path=d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-11 23:27:54,518 - network_interface - INFO - Starting Elixir node at d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-11 23:27:54,520 - network_interface - ERROR - Error starting Elixir node: [WinError 2] The system cannot find the file specified
+2025-05-11 23:27:54,521 - connector - WARNING - Failed to start Elixir node
+2025-05-11 23:27:54,521 - connector - INFO - Starting message listener thread
+2025-05-11 23:27:54,523 - connector - INFO - Listening for Elixir messages on port 4040
+2025-05-11 23:27:56,566 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:27:56,566 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:28:18,879 - network_interface - ERROR - Error communicating with server: [WinError 10057] A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+2025-05-11 23:28:18,880 - network_interface - INFO - Disconnected from discovery server
+2025-05-11 23:28:28,664 - network_interface - ERROR - Error communicating with server: [WinError 10057] A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+2025-05-11 23:28:28,664 - network_interface - INFO - Disconnected from discovery server
+2025-05-11 23:28:33,540 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:28:33,540 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:29:48,418 - network_interface - ERROR - Error communicating with server: [WinError 10057] A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+2025-05-11 23:29:48,418 - network_interface - INFO - Disconnected from discovery server
+2025-05-11 23:38:04,712 - connector - INFO - Starting connector with host=localhost, port=80, elixir_path=None
+2025-05-11 23:38:04,712 - connector - INFO - Starting message listener thread
+2025-05-11 23:38:04,716 - connector - INFO - Listening for Elixir messages on port 4040
+2025-05-11 23:38:06,753 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:38:06,753 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:38:43,453 - network_interface - ERROR - Error communicating with server: [WinError 10057] A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+2025-05-11 23:38:43,454 - network_interface - INFO - Disconnected from discovery server
+2025-05-11 23:38:50,999 - connector - INFO - Game interrupted by user
+2025-05-11 23:38:50,999 - connector - INFO - Cleaning up resources
+2025-05-11 23:38:53,475 - connector - INFO - Starting connector with host=localhost, port=80, elixir_path=None
+2025-05-11 23:38:53,476 - connector - INFO - Starting message listener thread
+2025-05-11 23:38:53,479 - connector - INFO - Listening for Elixir messages on port 4040
+2025-05-11 23:38:55,521 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:38:55,521 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:39:00,635 - network_interface - INFO - Disconnected from discovery server
+2025-05-11 23:39:02,658 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:39:02,658 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:39:08,185 - connector - INFO - Cleaning up resources
+2025-05-11 23:39:08,185 - network_interface - INFO - Disconnected from discovery server
+2025-05-11 23:39:29,211 - connector - INFO - Game interrupted by user
+2025-05-11 23:39:29,211 - connector - INFO - Cleaning up resources
+2025-05-11 23:39:35,618 - connector - INFO - Starting connector with host=localhost, port=80, elixir_path=None
+2025-05-11 23:39:35,618 - connector - INFO - Starting message listener thread
+2025-05-11 23:39:35,621 - connector - INFO - Listening for Elixir messages on port 4040
+2025-05-11 23:39:37,666 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:39:37,666 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:39:41,345 - network_interface - INFO - Disconnected from discovery server
+2025-05-11 23:39:43,372 - network_interface - ERROR - Error connecting to discovery server: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-11 23:39:43,372 - network_interface - ERROR - Failed to connect to discovery server
+2025-05-11 23:52:27,955 - connector - INFO - Game interrupted by user
+2025-05-11 23:52:27,956 - connector - INFO - Cleaning up resources
+2025-05-11 23:52:27,956 - network_interface - INFO - Disconnected from discovery server
+2025-05-12 01:08:12,656 - connector - INFO - Starting connector with host=localhost, port=80, elixir_path=d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-12 01:08:12,656 - network_interface - INFO - Starting Elixir node at d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-12 01:08:12,659 - network_interface - ERROR - Error starting Elixir node: [WinError 2] The system cannot find the file specified
+2025-05-12 01:08:12,660 - connector - WARNING - Failed to start Elixir node
+2025-05-12 01:08:12,660 - connector - INFO - Starting message listener thread
+2025-05-12 01:08:12,662 - connector - INFO - Listening for Elixir messages on port 4040
+2025-05-12 01:08:12,663 - network_interface - INFO - Connected to discovery server at localhost:80
+2025-05-12 01:08:15,500 - connector - INFO - Game interrupted by user
+2025-05-12 01:08:15,500 - connector - INFO - Cleaning up resources
+2025-05-12 01:08:15,500 - network_interface - INFO - Disconnected from discovery server
+2025-05-12 01:47:04,913 - connector - INFO - Starting connector with host=localhost, port=80, elixir_path=d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-12 01:47:04,913 - network_interface - INFO - Starting Elixir node at d:\pasca\Downloads\Practica_elixir\p2p_game
+2025-05-12 01:47:04,917 - network_interface - ERROR - Error starting Elixir node: [WinError 2] The system cannot find the file specified
+2025-05-12 01:47:04,917 - connector - WARNING - Failed to start Elixir node
+2025-05-12 01:47:04,917 - connector - INFO - Starting message listener thread
+2025-05-12 01:47:04,920 - connector - INFO - Listening for Elixir messages on port 4040
+2025-05-12 01:47:04,920 - network_interface - INFO - Connected to discovery server at localhost:80
