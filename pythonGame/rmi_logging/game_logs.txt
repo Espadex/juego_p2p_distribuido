@@ -182,3 +182,596 @@
 [2025-06-06 21:16:21.625] timestamp(1749258981623), fin, partida1, fin-juego
 === SERVIDOR DE LOGS INICIADO ===
 === SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+[2025-06-12 12:30:36.800] timestamp(1749745836775), ini, owosito, inicio-juego
+[2025-06-12 12:31:11.085] timestamp(1749745871083), ini, owosito, crea-jugador, sin_equipo, uwu
+[2025-06-12 12:31:11.088] timestamp(1749745871087), fin, owosito, crea-jugador, sin_equipo, uwu
+[2025-06-12 12:31:28.263] timestamp(1749745888263), ini, owosito, crea-equipo, rojo, renton
+[2025-06-12 12:31:28.266] timestamp(1749745888265), fin, owosito, crea-equipo, rojo, renton
+[2025-06-12 12:32:18.756] timestamp(1749745938754), ini, owosito, crea-equipo, azul, uwu
+[2025-06-12 12:32:18.758] timestamp(1749745938757), fin, owosito, crea-equipo, azul, uwu
+[2025-06-12 12:33:36.807] timestamp(1749746016805), ini, owosito, crea-jugador, sin_equipo, player3
+[2025-06-12 12:33:36.809] timestamp(1749746016809), fin, owosito, crea-jugador, sin_equipo, player3
+[2025-06-12 12:35:13.113] timestamp(1749746113110), ini, owosito, lanza-dado, rojo, renton, 6
+[2025-06-12 12:35:13.115] timestamp(1749746113115), fin, owosito, lanza-dado, rojo, renton, 6
+[2025-06-12 12:35:20.067] timestamp(1749746120066), ini, owosito, lanza-dado, azul, uwu, 13
+[2025-06-12 12:35:20.069] timestamp(1749746120069), fin, owosito, lanza-dado, azul, uwu, 13
+[2025-06-12 12:35:33.335] timestamp(1749746133334), ini, owosito, lanza-dado, rojo, renton, 4
+[2025-06-12 12:35:33.337] timestamp(1749746133337), fin, owosito, lanza-dado, rojo, renton, 4
+[2025-06-12 12:35:47.342] timestamp(1749746147341), ini, owosito, lanza-dado, azul, uwu, 1
+[2025-06-12 12:35:47.344] timestamp(1749746147344), fin, owosito, lanza-dado, azul, uwu, 1
+[2025-06-12 12:35:50.322] timestamp(1749746150322), ini, owosito, lanza-dado, rojo, renton, 7
+[2025-06-12 12:35:50.324] timestamp(1749746150324), fin, owosito, lanza-dado, rojo, renton, 7
+[2025-06-12 12:35:52.187] timestamp(1749746152186), ini, owosito, lanza-dado, azul, uwu, 6
+[2025-06-12 12:35:52.189] timestamp(1749746152189), fin, owosito, lanza-dado, azul, uwu, 6
+[2025-06-12 12:35:54.107] timestamp(1749746154105), ini, owosito, lanza-dado, rojo, renton, 1
+[2025-06-12 12:35:54.109] timestamp(1749746154109), fin, owosito, lanza-dado, rojo, renton, 1
+[2025-06-12 12:35:56.097] timestamp(1749746156096), ini, owosito, lanza-dado, azul, uwu, 14
+[2025-06-12 12:35:56.099] timestamp(1749746156099), fin, owosito, lanza-dado, azul, uwu, 14
+[2025-06-12 12:35:57.716] timestamp(1749746157715), ini, owosito, lanza-dado, rojo, renton, 12
+[2025-06-12 12:35:57.718] timestamp(1749746157717), fin, owosito, lanza-dado, rojo, renton, 12
+[2025-06-12 12:35:59.489] timestamp(1749746159488), ini, owosito, lanza-dado, azul, uwu, 8
+[2025-06-12 12:35:59.491] timestamp(1749746159491), fin, owosito, lanza-dado, azul, uwu, 8
+[2025-06-12 12:36:00.933] timestamp(1749746160933), ini, owosito, lanza-dado, rojo, renton, 2
+[2025-06-12 12:36:00.936] timestamp(1749746160935), fin, owosito, lanza-dado, rojo, renton, 2
+[2025-06-12 12:36:02.564] timestamp(1749746162563), ini, owosito, lanza-dado, azul, uwu, 1
+[2025-06-12 12:36:02.566] timestamp(1749746162566), fin, owosito, lanza-dado, azul, uwu, 1
+[2025-06-12 12:36:04.191] timestamp(1749746164190), ini, owosito, lanza-dado, rojo, renton, 13
+[2025-06-12 12:36:04.193] timestamp(1749746164193), fin, owosito, lanza-dado, rojo, renton, 13
+[2025-06-12 12:36:05.837] timestamp(1749746165836), ini, owosito, lanza-dado, azul, uwu, 15
+[2025-06-12 12:36:05.839] timestamp(1749746165839), fin, owosito, lanza-dado, azul, uwu, 15
+[2025-06-12 12:36:07.700] timestamp(1749746167699), ini, owosito, lanza-dado, rojo, renton, 5
+[2025-06-12 12:36:07.702] timestamp(1749746167702), fin, owosito, lanza-dado, rojo, renton, 5
+[2025-06-12 12:36:09.925] timestamp(1749746169925), ini, owosito, lanza-dado, azul, uwu, 8
+[2025-06-12 12:36:09.928] timestamp(1749746169928), fin, owosito, lanza-dado, azul, uwu, 8
+[2025-06-12 12:36:11.789] timestamp(1749746171789), ini, owosito, lanza-dado, rojo, renton, 8
+[2025-06-12 12:36:11.791] timestamp(1749746171791), fin, owosito, lanza-dado, rojo, renton, 8
+[2025-06-12 12:37:08.613] timestamp(1749746228611), ini, owosito, lanza-dado, azul, uwu, 12
+[2025-06-12 12:37:08.616] timestamp(1749746228615), fin, owosito, lanza-dado, azul, uwu, 12
+[2025-06-12 12:37:19.743] timestamp(1749746239742), ini, owosito, lanza-dado, rojo, renton, 2
+[2025-06-12 12:37:19.745] timestamp(1749746239745), fin, owosito, lanza-dado, rojo, renton, 2
+[2025-06-12 12:37:22.032] timestamp(1749746242031), ini, owosito, lanza-dado, azul, uwu, 10
+[2025-06-12 12:37:22.035] timestamp(1749746242034), fin, owosito, lanza-dado, azul, uwu, 10
+[2025-06-12 12:37:35.503] timestamp(1749746255502), ini, owosito, lanza-dado, rojo, renton, 15
+[2025-06-12 12:37:35.505] timestamp(1749746255505), fin, owosito, lanza-dado, rojo, renton, 15
+[2025-06-12 12:37:37.339] timestamp(1749746257339), ini, owosito, lanza-dado, azul, uwu, 14
+[2025-06-12 12:37:37.341] timestamp(1749746257341), fin, owosito, lanza-dado, azul, uwu, 14
+[2025-06-12 12:37:37.343] timestamp(1749746257343), ini, owosito, equipo-gana, azul
+[2025-06-12 12:37:37.344] timestamp(1749746257345), fin, owosito, equipo-gana, azul
+[2025-06-12 12:37:37.346] timestamp(1749746257346), fin, owosito, fin-juego
+=== SERVIDOR DE LOGS INICIADO ===
+[2025-06-12 19:47:31.476] timestamp(1749772051443), ini, ghfjhg, inicio-juego
+[2025-06-12 19:49:05.500] timestamp(1749772145497), ini, ghfjhg, crea-jugador, sin_equipo, yyyy
+[2025-06-12 19:49:05.502] timestamp(1749772145501), fin, ghfjhg, crea-jugador, sin_equipo, yyyy
+[2025-06-12 19:50:02.062] timestamp(1749772202060), ini, ghfjhg, crea-jugador, sin_equipo, gggg
+[2025-06-12 19:50:02.064] timestamp(1749772202063), fin, ghfjhg, crea-jugador, sin_equipo, gggg
+[2025-06-12 19:50:15.027] timestamp(1749772215025), ini, ghfjhg, crea-equipo, dfggh, dfgdfg
+[2025-06-12 19:50:15.029] timestamp(1749772215028), fin, ghfjhg, crea-equipo, dfggh, dfgdfg
+[2025-06-12 19:51:03.567] timestamp(1749772263565), ini, ghfjhg, crea-equipo, qqq, gggg
+[2025-06-12 19:51:03.570] timestamp(1749772263569), fin, ghfjhg, crea-equipo, qqq, gggg
+[2025-06-12 19:58:33.129] timestamp(1749772713126), fin, ghfjhg, fin-juego
+[2025-06-12 20:01:21.746] timestamp(1749772881745), ini, pppp, inicio-juego
+[2025-06-12 20:01:32.510] timestamp(1749772892509), ini, pppp, crea-equipo, ee1, yh
+[2025-06-12 20:01:32.513] timestamp(1749772892512), fin, pppp, crea-equipo, ee1, yh
+[2025-06-12 20:03:08.335] timestamp(1749772988333), ini, pppp, crea-jugador, sin_equipo, ttt
+[2025-06-12 20:03:08.337] timestamp(1749772988337), fin, pppp, crea-jugador, sin_equipo, ttt
+[2025-06-12 20:03:14.366] timestamp(1749772994362), ini, pppp, crea-equipo, ee2, ttt
+[2025-06-12 20:03:14.372] timestamp(1749772994370), fin, pppp, crea-equipo, ee2, ttt
+[2025-06-12 20:04:09.462] timestamp(1749773049460), ini, pppp, crea-jugador, sin_equipo, qqqq
+[2025-06-12 20:04:09.465] timestamp(1749773049464), fin, pppp, crea-jugador, sin_equipo, qqqq
+=== SERVIDOR DE LOGS INICIADO ===
+[2025-06-12 21:38:53.345] timestamp(1749778733311), ini, owo, inicio-juego
+[2025-06-12 21:39:08.595] timestamp(1749778748593), ini, owo, crea-jugador, sin_equipo, owosito
+[2025-06-12 21:39:08.598] timestamp(1749778748597), fin, owo, crea-jugador, sin_equipo, owosito
+[2025-06-12 21:39:20.224] timestamp(1749778760223), ini, owo, crea-jugador, sin_equipo, uwu
+[2025-06-12 21:39:20.226] timestamp(1749778760225), fin, owo, crea-jugador, sin_equipo, uwu
+[2025-06-12 21:39:36.048] timestamp(1749778776047), ini, owo, crea-equipo, q, uwu
+[2025-06-12 21:39:36.050] timestamp(1749778776049), fin, owo, crea-equipo, q, uwu
+[2025-06-12 21:39:47.629] timestamp(1749778787628), ini, owo, crea-equipo, w, renton
+[2025-06-12 21:39:47.631] timestamp(1749778787631), fin, owo, crea-equipo, w, renton
+[2025-06-12 21:40:18.131] timestamp(1749778818130), ini, owo, crea-equipo, w, renton
+[2025-06-12 21:40:28.166] timestamp(1749778828165), ini, owo, crea-equipo, e, owosito
+[2025-06-12 21:40:28.168] timestamp(1749778828168), fin, owo, crea-equipo, e, owosito
+[2025-06-12 21:41:59.767] timestamp(1749778919765), ini, owo, lanza-dado, q, uwu, 7
+[2025-06-12 21:41:59.769] timestamp(1749778919768), fin, owo, lanza-dado, q, uwu, 7
+[2025-06-12 21:43:23.627] timestamp(1749779003626), ini, owo, lanza-dado, w, renton, 2
+[2025-06-12 21:43:23.630] timestamp(1749779003630), fin, owo, lanza-dado, w, renton, 2
+[2025-06-12 21:48:00.643] timestamp(1749779280642), ini, owo, lanza-dado, e, owosito, 3
+[2025-06-12 21:48:00.645] timestamp(1749779280645), fin, owo, lanza-dado, e, owosito, 3
+[2025-06-12 21:50:31.013] timestamp(1749779431011), ini, owo, lanza-dado, q, uwu, 8
+[2025-06-12 21:50:31.015] timestamp(1749779431015), fin, owo, lanza-dado, q, uwu, 8
+[2025-06-12 21:50:55.508] timestamp(1749779455506), ini, owo, lanza-dado, w, renton, 8
+[2025-06-12 21:50:55.510] timestamp(1749779455510), fin, owo, lanza-dado, w, renton, 8
+[2025-06-12 21:51:25.904] timestamp(1749779485903), ini, owo, lanza-dado, e, owosito, 3
+[2025-06-12 21:51:25.906] timestamp(1749779485906), fin, owo, lanza-dado, e, owosito, 3
+[2025-06-12 21:52:16.612] timestamp(1749779536610), ini, owo, lanza-dado, q, uwu, 1
+[2025-06-12 21:52:16.614] timestamp(1749779536614), fin, owo, lanza-dado, q, uwu, 1
+[2025-06-12 21:52:33.052] timestamp(1749779553051), ini, owo, lanza-dado, w, renton, 7
+[2025-06-12 21:52:33.054] timestamp(1749779553053), fin, owo, lanza-dado, w, renton, 7
+[2025-06-12 21:52:48.885] timestamp(1749779568885), ini, owo, lanza-dado, e, owosito, 8
+[2025-06-12 21:52:48.888] timestamp(1749779568887), fin, owo, lanza-dado, e, owosito, 8
+[2025-06-12 21:53:11.786] timestamp(1749779591785), ini, owo, lanza-dado, q, uwu, 3
+[2025-06-12 21:53:11.788] timestamp(1749779591787), fin, owo, lanza-dado, q, uwu, 3
+[2025-06-12 21:53:38.763] timestamp(1749779618755), ini, owo, lanza-dado, w, renton, 5
+[2025-06-12 21:53:38.768] timestamp(1749779618766), fin, owo, lanza-dado, w, renton, 5
+[2025-06-12 21:53:46.549] timestamp(1749779626548), ini, owo, lanza-dado, e, owosito, 6
+[2025-06-12 21:53:46.551] timestamp(1749779626550), fin, owo, lanza-dado, e, owosito, 6
+[2025-06-12 21:54:58.710] timestamp(1749779698709), ini, owo, lanza-dado, q, uwu, 6
+[2025-06-12 21:54:58.712] timestamp(1749779698712), fin, owo, lanza-dado, q, uwu, 6
+[2025-06-12 21:55:07.218] timestamp(1749779707217), ini, owo, lanza-dado, w, renton, 4
+[2025-06-12 21:55:07.220] timestamp(1749779707219), fin, owo, lanza-dado, w, renton, 4
+[2025-06-12 21:55:17.971] timestamp(1749779717971), ini, owo, lanza-dado, e, owosito, 6
+[2025-06-12 21:55:17.973] timestamp(1749779717973), fin, owo, lanza-dado, e, owosito, 6
+[2025-06-12 21:55:27.570] timestamp(1749779727568), ini, owo, lanza-dado, q, uwu, 7
+[2025-06-12 21:55:27.572] timestamp(1749779727571), fin, owo, lanza-dado, q, uwu, 7
+[2025-06-12 21:55:31.998] timestamp(1749779731997), ini, owo, lanza-dado, w, renton, 8
+[2025-06-12 21:55:32.001] timestamp(1749779732000), fin, owo, lanza-dado, w, renton, 8
+[2025-06-12 21:55:36.544] timestamp(1749779736543), ini, owo, lanza-dado, e, owosito, 8
+[2025-06-12 21:55:36.546] timestamp(1749779736545), fin, owo, lanza-dado, e, owosito, 8
+[2025-06-12 21:55:46.279] timestamp(1749779746278), ini, owo, lanza-dado, q, uwu, 3
+[2025-06-12 21:55:46.281] timestamp(1749779746280), fin, owo, lanza-dado, q, uwu, 3
+[2025-06-12 21:55:51.788] timestamp(1749779751786), ini, owo, lanza-dado, w, renton, 2
+[2025-06-12 21:55:51.790] timestamp(1749779751789), fin, owo, lanza-dado, w, renton, 2
+[2025-06-12 21:56:27.108] timestamp(1749779787107), ini, owo, lanza-dado, e, owosito, 3
+[2025-06-12 21:56:27.110] timestamp(1749779787110), fin, owo, lanza-dado, e, owosito, 3
+[2025-06-12 21:57:03.407] timestamp(1749779823406), ini, owo, lanza-dado, q, uwu, 2
+[2025-06-12 21:57:03.409] timestamp(1749779823409), fin, owo, lanza-dado, q, uwu, 2
+[2025-06-12 21:57:12.952] timestamp(1749779832950), ini, owo, lanza-dado, w, renton, 1
+[2025-06-12 21:57:12.954] timestamp(1749779832953), fin, owo, lanza-dado, w, renton, 1
+[2025-06-12 21:58:05.730] timestamp(1749779885729), ini, owo, lanza-dado, e, owosito, 1
+[2025-06-12 21:58:05.732] timestamp(1749779885732), fin, owo, lanza-dado, e, owosito, 1
+[2025-06-12 21:58:10.142] timestamp(1749779890142), ini, owo, lanza-dado, q, uwu, 6
+[2025-06-12 21:58:10.144] timestamp(1749779890144), fin, owo, lanza-dado, q, uwu, 6
+[2025-06-12 21:58:10.146] timestamp(1749779890145), ini, owo, equipo-gana, q
+[2025-06-12 21:58:10.147] timestamp(1749779890147), fin, owo, equipo-gana, q
+[2025-06-12 21:58:10.149] timestamp(1749779890148), fin, owo, fin-juego
+[2025-06-12 21:58:54.318] timestamp(1749779934317), fin, owo, fin-juego
+[2025-06-12 22:13:05.323] timestamp(1749780785321), ini, partidasa, inicio-juego
+[2025-06-12 22:13:20.427] timestamp(1749780800425), ini, partidasa, crea-jugador, sin_equipo, owo
+[2025-06-12 22:13:20.432] timestamp(1749780800431), fin, partidasa, crea-jugador, sin_equipo, owo
+[2025-06-12 22:13:29.875] timestamp(1749780809875), ini, partidasa, crea-jugador, sin_equipo, pepe
+[2025-06-12 22:13:29.882] timestamp(1749780809880), fin, partidasa, crea-jugador, sin_equipo, pepe
+[2025-06-12 22:14:30.908] timestamp(1749780870907), ini, partidasa, crea-equipo, red, renton
+[2025-06-12 22:14:30.910] timestamp(1749780870910), fin, partidasa, crea-equipo, red, renton
+[2025-06-12 22:15:47.064] timestamp(1749780947062), ini, partidasa, crea-equipo, azul, owo
+[2025-06-12 22:15:47.066] timestamp(1749780947065), fin, partidasa, crea-equipo, azul, owo
+[2025-06-12 22:19:20.719] timestamp(1749781160717), ini, partidasa, crea-jugador, sin_equipo, pepe
+[2025-06-12 22:19:20.720] timestamp(1749781160720), fin, partidasa, crea-jugador, sin_equipo, pepe
+[2025-06-12 22:19:47.969] timestamp(1749781187968), ini, partidasa, une-equipo, red, pepe
+[2025-06-12 22:19:47.973] timestamp(1749781187972), fin, partidasa, une-equipo, red, pepe
+[2025-06-12 22:27:57.204] timestamp(1749781677203), ini, partidasa, lanza-dado, red, renton, 5
+[2025-06-12 22:27:57.206] timestamp(1749781677206), fin, partidasa, lanza-dado, red, renton, 5
+[2025-06-12 22:27:57.207] timestamp(1749781677208), ini, partidasa, lanza-dado, red, pepe, 4
+[2025-06-12 22:27:57.209] timestamp(1749781677209), fin, partidasa, lanza-dado, red, pepe, 4
+[2025-06-12 22:28:31.992] timestamp(1749781711990), ini, partidasa, lanza-dado, azul, owo, 4
+[2025-06-12 22:28:31.994] timestamp(1749781711993), fin, partidasa, lanza-dado, azul, owo, 4
+[2025-06-12 22:28:47.268] timestamp(1749781727266), ini, partidasa, lanza-dado, red, renton, 4
+[2025-06-12 22:28:47.270] timestamp(1749781727269), fin, partidasa, lanza-dado, red, renton, 4
+[2025-06-12 22:28:47.271] timestamp(1749781727271), ini, partidasa, lanza-dado, red, pepe, 2
+[2025-06-12 22:28:47.273] timestamp(1749781727273), fin, partidasa, lanza-dado, red, pepe, 2
+[2025-06-12 22:29:05.262] timestamp(1749781745261), ini, partidasa, lanza-dado, azul, owo, 2
+[2025-06-12 22:29:05.264] timestamp(1749781745264), fin, partidasa, lanza-dado, azul, owo, 2
+[2025-06-12 22:29:23.566] timestamp(1749781763565), ini, partidasa, lanza-dado, red, renton, 2
+[2025-06-12 22:29:23.568] timestamp(1749781763568), fin, partidasa, lanza-dado, red, renton, 2
+[2025-06-12 22:29:23.569] timestamp(1749781763569), ini, partidasa, lanza-dado, red, pepe, 6
+[2025-06-12 22:29:23.571] timestamp(1749781763571), fin, partidasa, lanza-dado, red, pepe, 6
+[2025-06-12 22:29:29.774] timestamp(1749781769773), ini, partidasa, lanza-dado, azul, owo, 3
+[2025-06-12 22:29:29.776] timestamp(1749781769776), fin, partidasa, lanza-dado, azul, owo, 3
+[2025-06-12 22:29:52.894] timestamp(1749781792894), ini, partidasa, lanza-dado, red, renton, 10
+[2025-06-12 22:29:52.896] timestamp(1749781792896), fin, partidasa, lanza-dado, red, renton, 10
+[2025-06-12 22:29:52.898] timestamp(1749781792898), ini, partidasa, lanza-dado, red, pepe, 2
+[2025-06-12 22:29:52.899] timestamp(1749781792899), fin, partidasa, lanza-dado, red, pepe, 2
+[2025-06-12 22:29:52.900] timestamp(1749781792900), ini, partidasa, equipo-gana, red
+[2025-06-12 22:29:52.902] timestamp(1749781792901), fin, partidasa, equipo-gana, red
+[2025-06-12 22:29:52.903] timestamp(1749781792902), fin, partidasa, fin-juego
+[2025-06-12 22:33:42.087] timestamp(1749782022085), fin, partidasa, fin-juego
+[2025-06-12 22:54:11.344] timestamp(1749783251342), ini, renton, inicio-juego
+[2025-06-12 22:54:18.256] timestamp(1749783258256), ini, renton, crea-equipo, rojo, renton
+[2025-06-12 22:54:18.258] timestamp(1749783258258), fin, renton, crea-equipo, rojo, renton
+[2025-06-12 22:56:22.482] timestamp(1749783382479), fin, renton, fin-juego
+[2025-06-12 23:18:22.047] timestamp(1749784702045), ini, renton, inicio-juego
+[2025-06-12 23:19:17.269] timestamp(1749784757268), ini, renton, crea-jugador, sin_equipo, uwu
+[2025-06-12 23:19:17.271] timestamp(1749784757271), fin, renton, crea-jugador, sin_equipo, uwu
+[2025-06-12 23:19:53.037] timestamp(1749784793037), ini, renton, crea-equipo, rojo, renton
+[2025-06-12 23:19:53.039] timestamp(1749784793040), fin, renton, crea-equipo, rojo, renton
+[2025-06-12 23:22:09.969] timestamp(1749784929968), ini, renton, crea-equipo, azul, uwu
+[2025-06-12 23:22:09.971] timestamp(1749784929971), fin, renton, crea-equipo, azul, uwu
+[2025-06-12 23:23:18.872] timestamp(1749784998871), ini, renton, lanza-dado, rojo, renton, 4
+[2025-06-12 23:23:18.875] timestamp(1749784998874), fin, renton, lanza-dado, rojo, renton, 4
+[2025-06-12 23:23:27.328] timestamp(1749785007328), ini, renton, lanza-dado, azul, uwu, 15
+[2025-06-12 23:23:27.331] timestamp(1749785007331), fin, renton, lanza-dado, azul, uwu, 15
+[2025-06-12 23:23:59.028] timestamp(1749785039027), ini, renton, lanza-dado, rojo, renton, 5
+[2025-06-12 23:23:59.030] timestamp(1749785039030), fin, renton, lanza-dado, rojo, renton, 5
+[2025-06-12 23:24:30.100] timestamp(1749785070099), ini, renton, lanza-dado, azul, uwu, 11
+[2025-06-12 23:24:30.103] timestamp(1749785070102), fin, renton, lanza-dado, azul, uwu, 11
+[2025-06-12 23:24:33.600] timestamp(1749785073599), ini, renton, lanza-dado, rojo, renton, 7
+[2025-06-12 23:24:33.602] timestamp(1749785073602), fin, renton, lanza-dado, rojo, renton, 7
+[2025-06-12 23:24:37.992] timestamp(1749785077992), ini, renton, lanza-dado, azul, uwu, 9
+[2025-06-12 23:24:37.995] timestamp(1749785077995), fin, renton, lanza-dado, azul, uwu, 9
+[2025-06-12 23:24:37.997] timestamp(1749785077996), ini, renton, equipo-gana, azul
+[2025-06-12 23:24:37.999] timestamp(1749785077998), fin, renton, equipo-gana, azul
+[2025-06-12 23:24:38.000] timestamp(1749785077999), fin, renton, fin-juego
+[2025-06-12 23:32:07.302] timestamp(1749785527300), fin, renton, fin-juego
+[2025-06-12 23:33:29.536] timestamp(1749785609534), ini, renton, inicio-juego
+[2025-06-12 23:33:53.424] timestamp(1749785633422), ini, renton, crea-equipo, rojo, uwu
+[2025-06-12 23:33:53.425] timestamp(1749785633425), fin, renton, crea-equipo, rojo, uwu
+[2025-06-12 23:34:40.342] timestamp(1749785680341), ini, renton, crea-jugador, sin_equipo, owo
+[2025-06-12 23:34:40.344] timestamp(1749785680344), fin, renton, crea-jugador, sin_equipo, owo
+[2025-06-12 23:34:43.715] timestamp(1749785683714), ini, renton, crea-equipo, azul, owo
+[2025-06-12 23:34:43.718] timestamp(1749785683717), fin, renton, crea-equipo, azul, owo
+[2025-06-12 23:35:38.904] timestamp(1749785738903), ini, renton, lanza-dado, rojo, uwu, 12
+[2025-06-12 23:35:38.906] timestamp(1749785738906), fin, renton, lanza-dado, rojo, uwu, 12
+[2025-06-12 23:35:59.672] timestamp(1749785759671), ini, renton, lanza-dado, azul, owo, 12
+[2025-06-12 23:35:59.674] timestamp(1749785759674), fin, renton, lanza-dado, azul, owo, 12
+[2025-06-12 23:38:06.358] timestamp(1749785886357), ini, renton, lanza-dado, rojo, uwu, 1
+[2025-06-12 23:38:06.359] timestamp(1749785886360), fin, renton, lanza-dado, rojo, uwu, 1
+[2025-06-12 23:38:12.897] timestamp(1749785892896), ini, renton, lanza-dado, azul, owo, 3
+[2025-06-12 23:38:12.900] timestamp(1749785892899), fin, renton, lanza-dado, azul, owo, 3
+[2025-06-12 23:38:18.270] timestamp(1749785898269), ini, renton, lanza-dado, rojo, uwu, 1
+[2025-06-12 23:38:18.272] timestamp(1749785898271), fin, renton, lanza-dado, rojo, uwu, 1
+[2025-06-12 23:38:20.210] timestamp(1749785900210), ini, renton, lanza-dado, azul, owo, 12
+[2025-06-12 23:38:20.212] timestamp(1749785900212), fin, renton, lanza-dado, azul, owo, 12
+[2025-06-12 23:38:24.249] timestamp(1749785904248), ini, renton, lanza-dado, rojo, uwu, 10
+[2025-06-12 23:38:24.252] timestamp(1749785904251), fin, renton, lanza-dado, rojo, uwu, 10
+[2025-06-12 23:38:26.503] timestamp(1749785906502), ini, renton, lanza-dado, azul, owo, 7
+[2025-06-12 23:38:26.505] timestamp(1749785906505), fin, renton, lanza-dado, azul, owo, 7
+[2025-06-12 23:38:26.506] timestamp(1749785906506), ini, renton, equipo-gana, azul
+[2025-06-12 23:38:26.507] timestamp(1749785906507), fin, renton, equipo-gana, azul
+[2025-06-12 23:38:26.508] timestamp(1749785906508), fin, renton, fin-juego
+[2025-06-12 23:45:23.758] timestamp(1749786323755), ini, ren, inicio-juego
+[2025-06-12 23:45:33.615] timestamp(1749786333612), ini, ren, crea-jugador, sin_equipo, ren2
+[2025-06-12 23:45:33.617] timestamp(1749786333617), fin, ren, crea-jugador, sin_equipo, ren2
+[2025-06-12 23:46:02.902] timestamp(1749786362900), ini, ren, crea-equipo, rojo, ren
+[2025-06-12 23:46:02.904] timestamp(1749786362904), fin, ren, crea-equipo, rojo, ren
+[2025-06-12 23:47:18.653] timestamp(1749786438651), ini, ren, crea-equipo, azul, ren2
+[2025-06-12 23:47:18.655] timestamp(1749786438655), fin, ren, crea-equipo, azul, ren2
+[2025-06-12 23:47:51.230] timestamp(1749786471228), ini, ren, lanza-dado, rojo, ren, 10
+[2025-06-12 23:47:51.232] timestamp(1749786471232), fin, ren, lanza-dado, rojo, ren, 10
+[2025-06-12 23:48:05.675] timestamp(1749786485675), ini, ren, lanza-dado, azul, ren2, 14
+[2025-06-12 23:48:05.677] timestamp(1749786485677), fin, ren, lanza-dado, azul, ren2, 14
+[2025-06-12 23:48:07.900] timestamp(1749786487899), ini, ren, lanza-dado, rojo, ren, 2
+[2025-06-12 23:48:07.902] timestamp(1749786487902), fin, ren, lanza-dado, rojo, ren, 2
+[2025-06-12 23:48:11.680] timestamp(1749786491680), ini, ren, lanza-dado, azul, ren2, 5
+[2025-06-12 23:48:11.682] timestamp(1749786491682), fin, ren, lanza-dado, azul, ren2, 5
+[2025-06-12 23:48:13.493] timestamp(1749786493492), ini, ren, lanza-dado, rojo, ren, 7
+[2025-06-12 23:48:13.494] timestamp(1749786493494), fin, ren, lanza-dado, rojo, ren, 7
+[2025-06-12 23:48:16.010] timestamp(1749786496010), ini, ren, lanza-dado, azul, ren2, 6
+[2025-06-12 23:48:16.012] timestamp(1749786496012), fin, ren, lanza-dado, azul, ren2, 6
+[2025-06-12 23:48:19.694] timestamp(1749786499693), ini, ren, lanza-dado, rojo, ren, 13
+[2025-06-12 23:48:19.696] timestamp(1749786499695), fin, ren, lanza-dado, rojo, ren, 13
+[2025-06-12 23:48:19.698] timestamp(1749786499698), ini, ren, equipo-gana, rojo
+[2025-06-12 23:48:19.700] timestamp(1749786499700), fin, ren, equipo-gana, rojo
+[2025-06-12 23:48:19.703] timestamp(1749786499702), fin, ren, fin-juego
+[2025-06-12 23:49:52.009] timestamp(1749786592007), ini, wuw, inicio-juego
+[2025-06-12 23:49:56.164] timestamp(1749786596163), ini, wuw, crea-equipo, rojo, ren
+[2025-06-12 23:49:56.166] timestamp(1749786596166), fin, wuw, crea-equipo, rojo, ren
+[2025-06-12 23:50:59.966] timestamp(1749786659964), ini, wuw, crea-jugador, sin_equipo, wow
+[2025-06-12 23:50:59.968] timestamp(1749786659968), fin, wuw, crea-jugador, sin_equipo, wow
+[2025-06-12 23:51:02.294] timestamp(1749786662293), ini, wuw, crea-equipo, azul, wow
+[2025-06-12 23:51:02.296] timestamp(1749786662295), fin, wuw, crea-equipo, azul, wow
+[2025-06-12 23:52:33.034] timestamp(1749786753033), ini, wuw, lanza-dado, rojo, ren, 1
+[2025-06-12 23:52:33.036] timestamp(1749786753036), fin, wuw, lanza-dado, rojo, ren, 1
+[2025-06-12 23:53:16.670] timestamp(1749786796669), ini, wuw, lanza-dado, azul, wow, 3
+[2025-06-12 23:53:16.673] timestamp(1749786796672), fin, wuw, lanza-dado, azul, wow, 3
+[2025-06-12 23:53:26.292] timestamp(1749786806291), ini, wuw, lanza-dado, rojo, ren, 5
+[2025-06-12 23:53:26.293] timestamp(1749786806294), fin, wuw, lanza-dado, rojo, ren, 5
+[2025-06-12 23:55:10.321] timestamp(1749786910318), ini, wuw, lanza-dado, azul, wow, 12
+[2025-06-12 23:55:10.323] timestamp(1749786910323), fin, wuw, lanza-dado, azul, wow, 12
+[2025-06-12 23:55:23.887] timestamp(1749786923886), ini, wuw, lanza-dado, rojo, ren, 3
+[2025-06-12 23:55:23.888] timestamp(1749786923888), fin, wuw, lanza-dado, rojo, ren, 3
+[2025-06-12 23:56:11.469] timestamp(1749786971468), ini, wuw, lanza-dado, azul, wow, 7
+[2025-06-12 23:56:11.471] timestamp(1749786971471), fin, wuw, lanza-dado, azul, wow, 7
+[2025-06-12 23:56:16.472] timestamp(1749786976472), ini, wuw, lanza-dado, rojo, ren, 8
+[2025-06-12 23:56:16.475] timestamp(1749786976474), fin, wuw, lanza-dado, rojo, ren, 8
+[2025-06-12 23:56:19.292] timestamp(1749786979292), ini, wuw, lanza-dado, azul, wow, 15
+[2025-06-12 23:56:19.294] timestamp(1749786979294), fin, wuw, lanza-dado, azul, wow, 15
+[2025-06-12 23:56:19.295] timestamp(1749786979295), ini, wuw, equipo-gana, azul
+[2025-06-12 23:56:19.298] timestamp(1749786979298), fin, wuw, equipo-gana, azul
+[2025-06-12 23:56:19.300] timestamp(1749786979300), fin, wuw, fin-juego
+[2025-06-12 23:56:28.087] timestamp(1749786988087), fin, wuw, fin-juego
+[2025-06-12 23:59:51.844] timestamp(1749787191841), ini, awea, inicio-juego
+[2025-06-13 00:00:06.499] timestamp(1749787206498), ini, awea, crea-jugador, sin_equipo, adadw
+[2025-06-13 00:00:06.501] timestamp(1749787206500), fin, awea, crea-jugador, sin_equipo, adadw
+[2025-06-13 00:00:17.168] timestamp(1749787217167), ini, awea, crea-equipo, red, renton
+[2025-06-13 00:00:17.171] timestamp(1749787217171), fin, awea, crea-equipo, red, renton
+[2025-06-13 00:00:21.846] timestamp(1749787221845), ini, awea, crea-equipo, blue, adadw
+[2025-06-13 00:00:21.848] timestamp(1749787221847), fin, awea, crea-equipo, blue, adadw
+[2025-06-13 00:04:11.292] timestamp(1749787451290), fin, awea, fin-juego
+[2025-06-13 00:04:47.060] timestamp(1749787487058), ini, ren, inicio-juego
+[2025-06-13 00:05:12.071] timestamp(1749787512069), ini, asdawd, inicio-juego
+[2025-06-13 00:05:14.854] timestamp(1749787514854), ini, asdawd, crea-equipo, red, raeda
+[2025-06-13 00:05:14.856] timestamp(1749787514856), fin, asdawd, crea-equipo, red, raeda
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      === SERVIDOR DE LOGS INICIADO ===
+[2025-06-13 00:41:57.254] timestamp(1749789717224), ini, renton2, inicio-juego
+[2025-06-13 00:42:39.850] timestamp(1749789759849), ini, renton2, crea-equipo, rojo, renton
+[2025-06-13 00:42:39.853] timestamp(1749789759852), fin, renton2, crea-equipo, rojo, renton
+[2025-06-13 00:57:50.378] timestamp(1749790670373), ini, owo, inicio-juego
+[2025-06-13 01:00:37.352] timestamp(1749790837349), ini, owo, crea-equipo, rojo, renton
+[2025-06-13 01:00:37.353] timestamp(1749790837354), fin, owo, crea-equipo, rojo, renton
+[2025-06-13 01:04:28.542] timestamp(1749791068540), ini, reasd, inicio-juego
+[2025-06-13 01:04:33.110] timestamp(1749791073108), ini, reasd, crea-equipo, rew, erw
+[2025-06-13 01:04:33.112] timestamp(1749791073111), fin, reasd, crea-equipo, rew, erw
+[2025-06-13 01:08:02.121] timestamp(1749791282119), ini, read, inicio-juego
+[2025-06-13 01:09:29.294] timestamp(1749791369292), ini, read, crea-equipo, red, rea
+[2025-06-13 01:09:29.297] timestamp(1749791369296), fin, read, crea-equipo, red, rea
+[2025-06-13 01:23:47.937] timestamp(1749792227935), ini, 3, inicio-juego
+[2025-06-13 01:24:02.660] timestamp(1749792242659), ini, 3, crea-equipo, wae, rent
+[2025-06-13 01:24:02.662] timestamp(1749792242662), fin, 3, crea-equipo, wae, rent
+[2025-06-13 01:25:51.263] timestamp(1749792351260), fin, 3, fin-juego
+[2025-06-13 01:38:25.197] timestamp(1749793105195), ini, reas, inicio-juego
+[2025-06-13 01:38:40.871] timestamp(1749793120869), ini, reas, crea-equipo, red, renton
+[2025-06-13 01:38:40.873] timestamp(1749793120872), fin, reas, crea-equipo, red, renton
+[2025-06-13 01:41:56.213] timestamp(1749793316210), ini, reas, crea-jugador, sin_equipo, owo
+[2025-06-13 01:41:56.216] timestamp(1749793316216), fin, reas, crea-jugador, sin_equipo, owo
+[2025-06-13 01:42:00.925] timestamp(1749793320924), ini, reas, crea-equipo, azul, owo
+[2025-06-13 01:42:00.929] timestamp(1749793320928), fin, reas, crea-equipo, azul, owo
+[2025-06-13 01:44:24.997] timestamp(1749793464995), ini, reas, crea-jugador, sin_equipo, azuld
+[2025-06-13 01:44:24.999] timestamp(1749793464998), fin, reas, crea-jugador, sin_equipo, azuld
+[2025-06-13 01:46:13.186] timestamp(1749793573194), ini, reas, une-equipo, azul, azuld
+[2025-06-13 01:46:13.186] timestamp(1749793573198), fin, reas, une-equipo, azul, azuld
+[2025-06-13 02:04:16.003] timestamp(1749794656009), ini, reas, lanza-dado, red, renton, 1
+[2025-06-13 02:04:16.003] timestamp(1749794656012), fin, reas, lanza-dado, red, renton, 1
+[2025-06-13 02:18:55.306] timestamp(1749795535308), ini, reas, lanza-dado, azul, owo, 2
+[2025-06-13 02:18:55.312] timestamp(1749795535311), fin, reas, lanza-dado, azul, owo, 2
+[2025-06-13 02:18:55.312] timestamp(1749795535313), ini, reas, lanza-dado, azul, azuld, 4
+[2025-06-13 02:18:55.315] timestamp(1749795535315), fin, reas, lanza-dado, azul, azuld, 4
+[2025-06-13 02:20:00.058] timestamp(1749795600066), ini, reas, lanza-dado, red, renton, 6
+[2025-06-13 02:20:00.058] timestamp(1749795600069), fin, reas, lanza-dado, red, renton, 6
+[2025-06-13 02:20:07.690] timestamp(1749795607698), ini, reas, lanza-dado, azul, owo, 6
+[2025-06-13 02:20:07.690] timestamp(1749795607701), fin, reas, lanza-dado, azul, owo, 6
+[2025-06-13 02:20:07.690] timestamp(1749795607703), ini, reas, lanza-dado, azul, azuld, 3
+[2025-06-13 02:20:07.705] timestamp(1749795607705), fin, reas, lanza-dado, azul, azuld, 3
+[2025-06-13 02:20:07.705] timestamp(1749795607707), ini, reas, equipo-gana, azul
+[2025-06-13 02:20:07.705] timestamp(1749795607708), fin, reas, equipo-gana, azul
+[2025-06-13 02:20:07.705] timestamp(1749795607709), fin, reas, fin-juego
+[2025-06-13 02:21:14.119] timestamp(1749795674129), ini, radas, inicio-juego
+[2025-06-13 02:22:54.958] timestamp(1749795774959), ini, radas, crea-equipo, azul, rent
+[2025-06-13 02:22:54.958] timestamp(1749795774963), fin, radas, crea-equipo, azul, rent
+[2025-06-13 02:34:37.864] timestamp(1749796477862), fin, radas, fin-juego
+[2025-06-13 02:35:08.829] timestamp(1749796508827), ini, 32, inicio-juego
+[2025-06-13 02:35:16.511] timestamp(1749796516511), ini, 32, crea-equipo, cre, renton
+[2025-06-13 02:35:16.514] timestamp(1749796516513), fin, 32, crea-equipo, cre, renton
+[2025-06-13 02:36:08.601] timestamp(1749796568600), fin, 32, fin-juego
+[2025-06-13 02:36:59.058] timestamp(1749796619057), ini, 3, inicio-juego
+[2025-06-13 02:37:04.712] timestamp(1749796624711), ini, 3, crea-equipo, red, eas
+[2025-06-13 02:37:04.714] timestamp(1749796624714), fin, 3, crea-equipo, red, eas
+[2025-06-13 02:37:55.990] timestamp(1749796675989), ini, 3, crea-jugador, sin_equipo, red
+[2025-06-13 02:37:55.993] timestamp(1749796675993), fin, 3, crea-jugador, sin_equipo, red
+[2025-06-13 02:39:22.223] timestamp(1749796762221), ini, 3, crea-equipo, azul, red
+[2025-06-13 02:39:22.225] timestamp(1749796762224), fin, 3, crea-equipo, azul, red
+[2025-06-13 02:39:49.243] timestamp(1749796789242), fin, 3, fin-juego
+[2025-06-13 02:40:45.648] timestamp(1749796845647), ini, red, inicio-juego
+[2025-06-13 02:40:52.765] timestamp(1749796852765), ini, red, crea-equipo, rojo, renton
+[2025-06-13 02:40:52.767] timestamp(1749796852767), fin, red, crea-equipo, rojo, renton
+[2025-06-13 02:41:32.347] timestamp(1749796892346), ini, red, lanza-dado, rojo, renton, 10
+[2025-06-13 02:41:32.349] timestamp(1749796892349), fin, red, lanza-dado, rojo, renton, 10
+[2025-06-13 02:41:34.857] timestamp(1749796894856), ini, red, lanza-dado, rojo, renton, 8
+[2025-06-13 02:41:34.859] timestamp(1749796894858), fin, red, lanza-dado, rojo, renton, 8
+[2025-06-13 02:41:38.101] timestamp(1749796898100), ini, red, lanza-dado, rojo, renton, 2
+[2025-06-13 02:41:38.103] timestamp(1749796898102), fin, red, lanza-dado, rojo, renton, 2
+[2025-06-13 02:42:03.847] timestamp(1749796923846), ini, red, lanza-dado, rojo, renton, 4
+[2025-06-13 02:42:03.849] timestamp(1749796923849), fin, red, lanza-dado, rojo, renton, 4
+[2025-06-13 02:42:06.849] timestamp(1749796926848), ini, red, lanza-dado, rojo, renton, 3
+[2025-06-13 02:42:06.851] timestamp(1749796926851), fin, red, lanza-dado, rojo, renton, 3
+[2025-06-13 02:42:08.357] timestamp(1749796928357), ini, red, lanza-dado, rojo, renton, 6
+[2025-06-13 02:42:08.359] timestamp(1749796928359), fin, red, lanza-dado, rojo, renton, 6
+[2025-06-13 02:42:08.360] timestamp(1749796928361), ini, red, equipo-gana, rojo
+[2025-06-13 02:42:08.362] timestamp(1749796928362), fin, red, equipo-gana, rojo
+[2025-06-13 02:42:08.363] timestamp(1749796928363), fin, red, fin-juego
+[2025-06-13 02:51:19.844] timestamp(1749797479842), ini, 3, inicio-juego
+[2025-06-13 02:51:26.135] timestamp(1749797486135), ini, 3, crea-equipo, red, aew
+[2025-06-13 02:51:26.137] timestamp(1749797486137), fin, 3, crea-equipo, red, aew
+[2025-06-13 02:54:56.505] timestamp(1749797696504), fin, 3, fin-juego
+[2025-06-13 02:56:06.851] timestamp(1749797766850), ini, adsd, inicio-juego
+[2025-06-13 02:56:09.156] timestamp(1749797769155), ini, adsd, crea-equipo, red, reas
+[2025-06-13 02:56:09.157] timestamp(1749797769157), fin, adsd, crea-equipo, red, reas
+[2025-06-13 03:05:45.091] timestamp(1749798345089), ini, 32, inicio-juego
+[2025-06-13 03:05:47.145] timestamp(1749798347145), ini, 32, crea-equipo, red, renton
+[2025-06-13 03:05:47.146] timestamp(1749798347147), fin, 32, crea-equipo, red, renton
+[2025-06-13 03:07:09.789] timestamp(1749798429787), ini, 32, inicio-juego
+[2025-06-13 03:07:19.127] timestamp(1749798439127), ini, 32, crea-equipo, red, renton
+[2025-06-13 03:07:19.129] timestamp(1749798439129), fin, 32, crea-equipo, red, renton
+[2025-06-13 03:16:02.462] timestamp(1749798962461), ini, 33, inicio-juego
+[2025-06-13 03:16:06.577] timestamp(1749798966577), ini, 33, crea-equipo, red, 1
+[2025-06-13 03:16:06.579] timestamp(1749798966579), fin, 33, crea-equipo, red, 1
+[2025-06-13 03:16:38.618] timestamp(1749798998616), ini, 33, crea-jugador, sin_equipo, renton
+[2025-06-13 03:16:38.620] timestamp(1749798998619), fin, 33, crea-jugador, sin_equipo, renton
+[2025-06-13 03:16:43.355] timestamp(1749799003355), ini, 33, crea-equipo, azul, renton
+[2025-06-13 03:16:43.357] timestamp(1749799003357), fin, 33, crea-equipo, azul, renton
+[2025-06-13 03:17:45.284] timestamp(1749799065282), ini, 33, lanza-dado, red, 1, 1
+[2025-06-13 03:17:45.285] timestamp(1749799065285), fin, 33, lanza-dado, red, 1, 1
+[2025-06-13 03:19:34.477] timestamp(1749799174475), ini, 33, lanza-dado, azul, renton, 1
+[2025-06-13 03:19:34.479] timestamp(1749799174479), fin, 33, lanza-dado, azul, renton, 1
+[2025-06-13 03:21:45.538] timestamp(1749799305536), ini, 33, lanza-dado, red, 1, 2
+[2025-06-13 03:21:45.540] timestamp(1749799305539), fin, 33, lanza-dado, red, 1, 2
+[2025-06-13 03:21:50.008] timestamp(1749799310007), ini, 33, lanza-dado, azul, renton, 1
+[2025-06-13 03:21:50.010] timestamp(1749799310009), fin, 33, lanza-dado, azul, renton, 1
+[2025-06-13 03:21:55.490] timestamp(1749799315489), ini, 33, lanza-dado, red, 1, 1
+[2025-06-13 03:21:55.492] timestamp(1749799315491), fin, 33, lanza-dado, red, 1, 1
+[2025-06-13 03:22:09.575] timestamp(1749799329574), ini, 33, lanza-dado, azul, renton, 2
+[2025-06-13 03:22:09.577] timestamp(1749799329576), fin, 33, lanza-dado, azul, renton, 2
+[2025-06-13 03:22:13.858] timestamp(1749799333857), ini, 33, lanza-dado, red, 1, 4
+[2025-06-13 03:22:13.860] timestamp(1749799333859), fin, 33, lanza-dado, red, 1, 4
+[2025-06-13 03:22:15.332] timestamp(1749799335332), ini, 33, lanza-dado, azul, renton, 2
+[2025-06-13 03:22:15.335] timestamp(1749799335334), fin, 33, lanza-dado, azul, renton, 2
+[2025-06-13 03:22:16.750] timestamp(1749799336750), ini, 33, lanza-dado, red, 1, 3
+[2025-06-13 03:22:16.752] timestamp(1749799336752), fin, 33, lanza-dado, red, 1, 3
+[2025-06-13 03:22:18.313] timestamp(1749799338313), ini, 33, lanza-dado, azul, renton, 3
+[2025-06-13 03:22:18.315] timestamp(1749799338315), fin, 33, lanza-dado, azul, renton, 3
+[2025-06-13 03:22:30.520] timestamp(1749799350519), ini, 33, lanza-dado, red, 1, 2
+[2025-06-13 03:22:30.522] timestamp(1749799350521), fin, 33, lanza-dado, red, 1, 2
+[2025-06-13 03:22:40.632] timestamp(1749799360633), ini, 33, lanza-dado, azul, renton, 4
+[2025-06-13 03:22:40.636] timestamp(1749799360635), fin, 33, lanza-dado, azul, renton, 4
+[2025-06-13 03:22:45.381] timestamp(1749799365381), ini, 33, lanza-dado, red, 1, 2
+[2025-06-13 03:22:45.383] timestamp(1749799365383), fin, 33, lanza-dado, red, 1, 2
+[2025-06-13 03:22:45.384] timestamp(1749799365385), ini, 33, equipo-gana, red
+[2025-06-13 03:22:45.386] timestamp(1749799365386), fin, 33, equipo-gana, red
+[2025-06-13 03:22:45.387] timestamp(1749799365388), fin, 33, fin-juego
+[2025-06-13 03:23:09.223] timestamp(1749799389222), fin, 33, fin-juego
+[2025-06-13 03:23:55.971] timestamp(1749799435970), ini, re, inicio-juego
+[2025-06-13 03:24:00.589] timestamp(1749799440588), ini, re, crea-equipo, red, 1
+[2025-06-13 03:24:00.591] timestamp(1749799440590), fin, re, crea-equipo, red, 1
+[2025-06-13 03:24:21.861] timestamp(1749799461860), ini, re, crea-jugador, sin_equipo, ea
+[2025-06-13 03:24:21.862] timestamp(1749799461863), fin, re, crea-jugador, sin_equipo, ea
+[2025-06-13 03:24:27.105] timestamp(1749799467105), ini, re, crea-equipo, azul, ea
+[2025-06-13 03:24:27.107] timestamp(1749799467107), fin, re, crea-equipo, azul, ea
+[2025-06-13 03:33:11.281] timestamp(1749799991280), ini, renb, inicio-juego
+[2025-06-13 03:33:24.506] timestamp(1749800004506), ini, renb, crea-equipo, red, renton
+[2025-06-13 03:33:24.508] timestamp(1749800004508), fin, renb, crea-equipo, red, renton
+[2025-06-13 03:33:41.982] timestamp(1749800021982), ini, renb, crea-jugador, sin_equipo, asda
+[2025-06-13 03:33:41.985] timestamp(1749800021985), fin, renb, crea-jugador, sin_equipo, asda
+[2025-06-13 03:33:50.544] timestamp(1749800030544), ini, renb, crea-equipo, red, asda
+[2025-06-13 03:34:08.768] timestamp(1749800048766), ini, renb, crea-equipo, azul, asda
+[2025-06-13 03:34:08.769] timestamp(1749800048769), fin, renb, crea-equipo, azul, asda
+[2025-06-13 03:36:08.458] timestamp(1749800168455), ini, renb, lanza-dado, red, renton, 6
+[2025-06-13 03:36:08.460] timestamp(1749800168459), fin, renb, lanza-dado, red, renton, 6
+[2025-06-13 03:36:21.233] timestamp(1749800181233), ini, renb, lanza-dado, azul, asda, 5
+[2025-06-13 03:36:21.236] timestamp(1749800181235), fin, renb, lanza-dado, azul, asda, 5
+[2025-06-13 03:37:21.052] timestamp(1749800241051), ini, renb, lanza-dado, red, renton, 1
+[2025-06-13 03:37:21.055] timestamp(1749800241054), fin, renb, lanza-dado, red, renton, 1
+[2025-06-13 03:37:33.425] timestamp(1749800253424), ini, renb, lanza-dado, azul, asda, 6
+[2025-06-13 03:37:33.426] timestamp(1749800253427), fin, renb, lanza-dado, azul, asda, 6
+[2025-06-13 03:40:54.859] timestamp(1749800454857), ini, renb, lanza-dado, red, renton, 5
+[2025-06-13 03:40:54.861] timestamp(1749800454861), fin, renb, lanza-dado, red, renton, 5
+[2025-06-13 03:42:03.697] timestamp(1749800523695), ini, renb, lanza-dado, azul, asda, 1
+[2025-06-13 03:42:03.698] timestamp(1749800523698), fin, renb, lanza-dado, azul, asda, 1
+[2025-06-13 03:42:12.024] timestamp(1749800532024), ini, renb, lanza-dado, red, renton, 2
+[2025-06-13 03:42:12.026] timestamp(1749800532026), fin, renb, lanza-dado, red, renton, 2
+[2025-06-13 03:42:12.027] timestamp(1749800532027), ini, renb, equipo-gana, red
+[2025-06-13 03:42:12.028] timestamp(1749800532028), fin, renb, equipo-gana, red
+[2025-06-13 03:42:12.029] timestamp(1749800532029), fin, renb, fin-juego
+[2025-06-13 03:42:25.859] timestamp(1749800545858), fin, renb, fin-juego
+[2025-06-13 03:44:22.990] timestamp(1749800662988), ini, reca, inicio-juego
+[2025-06-13 03:44:34.490] timestamp(1749800674489), ini, reca, crea-jugador, sin_equipo, pepe
+[2025-06-13 03:44:34.492] timestamp(1749800674491), fin, reca, crea-jugador, sin_equipo, pepe
+[2025-06-13 03:44:52.754] timestamp(1749800692754), ini, reca, crea-jugador, sin_equipo, pupu
+[2025-06-13 03:44:52.756] timestamp(1749800692755), fin, reca, crea-jugador, sin_equipo, pupu
+[2025-06-13 03:45:28.917] timestamp(1749800728916), ini, reca, crea-equipo, red, ren
+[2025-06-13 03:45:28.919] timestamp(1749800728919), fin, reca, crea-equipo, red, ren
+[2025-06-13 03:45:32.639] timestamp(1749800732639), ini, reca, crea-equipo, green, pupu
+[2025-06-13 03:45:32.641] timestamp(1749800732641), fin, reca, crea-equipo, green, pupu
+[2025-06-13 03:46:01.608] timestamp(1749800761607), ini, reca, crea-equipo, blue, pepe
+[2025-06-13 03:46:01.610] timestamp(1749800761610), fin, reca, crea-equipo, blue, pepe
+[2025-06-13 03:46:54.716] timestamp(1749800814715), ini, reca, lanza-dado, red, ren, 2
+[2025-06-13 03:46:54.718] timestamp(1749800814717), fin, reca, lanza-dado, red, ren, 2
+[2025-06-13 03:51:03.769] timestamp(1749801063767), ini, re, inicio-juego
+[2025-06-13 03:51:06.734] timestamp(1749801066733), ini, re, crea-equipo, red, ren
+[2025-06-13 03:51:06.735] timestamp(1749801066735), fin, re, crea-equipo, red, ren
+[2025-06-13 03:51:20.526] timestamp(1749801080525), ini, re, crea-jugador, sin_equipo, rea
+[2025-06-13 03:51:20.528] timestamp(1749801080528), fin, re, crea-jugador, sin_equipo, rea
+[2025-06-13 03:51:23.767] timestamp(1749801083766), ini, re, crea-equipo, blue, rea
+[2025-06-13 03:51:23.769] timestamp(1749801083768), fin, re, crea-equipo, blue, rea
+[2025-06-13 03:51:51.448] timestamp(1749801111446), ini, re, crea-jugador, sin_equipo, localhost
+[2025-06-13 03:51:51.450] timestamp(1749801111449), fin, re, crea-jugador, sin_equipo, localhost
+[2025-06-13 03:51:54.678] timestamp(1749801114678), ini, re, crea-equipo, green, localhost
+[2025-06-13 03:51:54.680] timestamp(1749801114680), fin, re, crea-equipo, green, localhost
+[2025-06-13 03:52:20.120] timestamp(1749801140119), ini, re, lanza-dado, red, ren, 3
+[2025-06-13 03:52:20.122] timestamp(1749801140121), fin, re, lanza-dado, red, ren, 3
+[2025-06-13 03:52:27.590] timestamp(1749801147590), ini, re, lanza-dado, green, localhost, 4
+[2025-06-13 03:52:27.592] timestamp(1749801147592), fin, re, lanza-dado, green, localhost, 4
+[2025-06-13 03:52:33.163] timestamp(1749801153162), ini, re, lanza-dado, blue, rea, 4
+[2025-06-13 03:52:33.165] timestamp(1749801153165), fin, re, lanza-dado, blue, rea, 4
+[2025-06-13 03:52:39.242] timestamp(1749801159241), ini, re, lanza-dado, blue, rea, 4
+[2025-06-13 03:52:39.244] timestamp(1749801159243), fin, re, lanza-dado, blue, rea, 4
+[2025-06-13 03:52:39.775] timestamp(1749801159774), ini, re, lanza-dado, blue, rea, 4
+[2025-06-13 03:52:39.777] timestamp(1749801159776), fin, re, lanza-dado, blue, rea, 4
+[2025-06-13 03:52:39.778] timestamp(1749801159778), ini, re, equipo-gana, blue
+[2025-06-13 03:52:39.779] timestamp(1749801159779), fin, re, equipo-gana, blue
+[2025-06-13 03:52:39.780] timestamp(1749801159780), fin, re, fin-juego
+[2025-06-13 03:54:57.060] timestamp(1749801297058), ini, rea, inicio-juego
+[2025-06-13 03:55:02.585] timestamp(1749801302585), ini, rea, crea-equipo, red, re
+[2025-06-13 03:55:02.587] timestamp(1749801302587), fin, rea, crea-equipo, red, re
+[2025-06-13 03:55:19.413] timestamp(1749801319413), ini, rea, crea-jugador, sin_equipo, 32
+[2025-06-13 03:55:19.414] timestamp(1749801319414), fin, rea, crea-jugador, sin_equipo, 32
+[2025-06-13 03:55:26.239] timestamp(1749801326239), ini, rea, crea-equipo, blue, 32
+[2025-06-13 03:55:26.241] timestamp(1749801326241), fin, rea, crea-equipo, blue, 32
+[2025-06-13 03:55:42.121] timestamp(1749801342120), ini, rea, crea-jugador, sin_equipo, local
+[2025-06-13 03:55:42.123] timestamp(1749801342123), fin, rea, crea-jugador, sin_equipo, local
+[2025-06-13 03:55:46.001] timestamp(1749801346000), ini, rea, crea-equipo, hge, local
+[2025-06-13 03:55:46.002] timestamp(1749801346002), fin, rea, crea-equipo, hge, local
+[2025-06-13 03:56:14.807] timestamp(1749801374805), ini, rea, lanza-dado, red, re, 1
+[2025-06-13 03:56:14.808] timestamp(1749801374808), fin, rea, lanza-dado, red, re, 1
+[2025-06-13 03:59:10.240] timestamp(1749801550240), ini, rea, lanza-dado, blue, 32, 1
+[2025-06-13 03:59:10.244] timestamp(1749801550243), fin, rea, lanza-dado, blue, 32, 1
+[2025-06-13 04:00:11.664] timestamp(1749801611663), ini, rea, lanza-dado, hge, local, 2
+[2025-06-13 04:00:11.666] timestamp(1749801611666), fin, rea, lanza-dado, hge, local, 2
+[2025-06-13 04:00:24.931] timestamp(1749801624931), ini, rea, lanza-dado, red, re, 3
+[2025-06-13 04:00:24.932] timestamp(1749801624933), fin, rea, lanza-dado, red, re, 3
+[2025-06-13 04:00:32.262] timestamp(1749801632262), ini, rea, lanza-dado, blue, 32, 1
+[2025-06-13 04:00:32.263] timestamp(1749801632263), fin, rea, lanza-dado, blue, 32, 1
+[2025-06-13 04:00:41.389] timestamp(1749801641388), ini, rea, lanza-dado, hge, local, 1
+[2025-06-13 04:00:41.391] timestamp(1749801641390), fin, rea, lanza-dado, hge, local, 1
+[2025-06-13 04:00:50.948] timestamp(1749801650948), ini, rea, lanza-dado, red, re, 2
+[2025-06-13 04:00:50.950] timestamp(1749801650950), fin, rea, lanza-dado, red, re, 2
+[2025-06-13 04:01:28.464] timestamp(1749801688463), ini, rea, lanza-dado, blue, 32, 4
+[2025-06-13 04:01:28.466] timestamp(1749801688466), fin, rea, lanza-dado, blue, 32, 4
+[2025-06-13 04:01:33.275] timestamp(1749801693274), ini, rea, lanza-dado, hge, local, 4
+[2025-06-13 04:01:33.277] timestamp(1749801693276), fin, rea, lanza-dado, hge, local, 4
+[2025-06-13 04:01:43.282] timestamp(1749801703282), ini, rea, lanza-dado, red, re, 4
+[2025-06-13 04:01:43.285] timestamp(1749801703284), fin, rea, lanza-dado, red, re, 4
+[2025-06-13 04:01:43.286] timestamp(1749801703286), ini, rea, equipo-gana, red
+[2025-06-13 04:01:43.288] timestamp(1749801703287), fin, rea, equipo-gana, red
+[2025-06-13 04:01:43.288] timestamp(1749801703288), fin, rea, fin-juego
+[2025-06-13 04:02:21.145] timestamp(1749801741144), fin, rea, fin-juego
+[2025-06-13 04:04:26.950] timestamp(1749801866948), ini, rea, inicio-juego
+[2025-06-13 04:04:40.224] timestamp(1749801880224), ini, rea, crea-jugador, sin_equipo, 32
+[2025-06-13 04:04:40.226] timestamp(1749801880226), fin, rea, crea-jugador, sin_equipo, 32
+[2025-06-13 04:04:50.251] timestamp(1749801890251), ini, rea, crea-equipo, red, renton
+[2025-06-13 04:04:50.253] timestamp(1749801890253), fin, rea, crea-equipo, red, renton
+[2025-06-13 04:05:05.183] timestamp(1749801905183), ini, rea, crea-equipo, blue, 32
+[2025-06-13 04:05:05.185] timestamp(1749801905185), fin, rea, crea-equipo, blue, 32
+[2025-06-13 04:05:25.098] timestamp(1749801925097), ini, rea, lanza-dado, red, renton, 5
+[2025-06-13 04:05:25.100] timestamp(1749801925099), fin, rea, lanza-dado, red, renton, 5
+[2025-06-13 04:05:29.060] timestamp(1749801929060), ini, rea, lanza-dado, blue, 32, 3
+[2025-06-13 04:05:29.062] timestamp(1749801929062), fin, rea, lanza-dado, blue, 32, 3
+[2025-06-13 04:05:30.925] timestamp(1749801930924), ini, rea, lanza-dado, red, renton, 4
+[2025-06-13 04:05:30.927] timestamp(1749801930927), fin, rea, lanza-dado, red, renton, 4
+[2025-06-13 04:05:33.704] timestamp(1749801933704), ini, rea, lanza-dado, blue, 32, 4
+[2025-06-13 04:05:33.706] timestamp(1749801933706), fin, rea, lanza-dado, blue, 32, 4
+[2025-06-13 04:05:35.432] timestamp(1749801935429), ini, rea, lanza-dado, red, renton, 1
+[2025-06-13 04:05:35.434] timestamp(1749801935434), fin, rea, lanza-dado, red, renton, 1
+[2025-06-13 04:05:35.436] timestamp(1749801935436), ini, rea, equipo-gana, red
+[2025-06-13 04:05:35.437] timestamp(1749801935437), fin, rea, equipo-gana, red
+[2025-06-13 04:05:35.438] timestamp(1749801935438), fin, rea, fin-juego
+[2025-06-13 04:06:15.193] timestamp(1749801975192), fin, rea, fin-juego
+[2025-06-13 04:09:59.260] timestamp(1749802199257), ini, ty, inicio-juego
+[2025-06-13 04:10:10.168] timestamp(1749802210169), ini, ty, crea-jugador, sin_equipo, we
+[2025-06-13 04:10:10.171] timestamp(1749802210171), fin, ty, crea-jugador, sin_equipo, we
+[2025-06-13 04:10:31.347] timestamp(1749802231344), ini, ty, crea-equipo, red, re
+[2025-06-13 04:10:31.348] timestamp(1749802231349), fin, ty, crea-equipo, red, re
+[2025-06-13 04:27:53.404] timestamp(1749803273402), fin, ty, fin-juego
+[2025-06-13 08:09:52.573] timestamp(1749816592582), ini, 3, inicio-juego
+[2025-06-13 08:09:58.372] timestamp(1749816598374), ini, 3, crea-equipo, red, renton
+[2025-06-13 08:09:58.372] timestamp(1749816598378), fin, 3, crea-equipo, red, renton
+[2025-06-13 08:10:18.725] timestamp(1749816618729), ini, 3, crea-jugador, sin_equipo, das
+[2025-06-13 08:10:18.733] timestamp(1749816618732), fin, 3, crea-jugador, sin_equipo, das
+[2025-06-13 08:10:34.329] timestamp(1749816634333), ini, 3, crea-equipo, azul, das
+[2025-06-13 08:10:34.337] timestamp(1749816634336), fin, 3, crea-equipo, azul, das
+[2025-06-13 08:10:51.585] timestamp(1749816651592), ini, 3, crea-jugador, sin_equipo, adaw
+[2025-06-13 08:10:51.595] timestamp(1749816651595), fin, 3, crea-jugador, sin_equipo, adaw
+[2025-06-13 08:16:59.173] timestamp(1749817019181), fin, 3, fin-juego
+[2025-06-13 08:17:18.157] timestamp(1749817038155), ini, 3, inicio-juego
+[2025-06-13 08:17:21.466] timestamp(1749817041470), ini, 3, crea-equipo, red, 12321
+[2025-06-13 08:17:21.474] timestamp(1749817041473), fin, 3, crea-equipo, red, 12321
+[2025-06-13 08:17:34.004] timestamp(1749817054009), ini, 3, crea-jugador, sin_equipo, 321
+[2025-06-13 08:17:34.013] timestamp(1749817054012), fin, 3, crea-jugador, sin_equipo, 321
+[2025-06-13 08:20:38.322] timestamp(1749817238320), fin, 3, fin-juego
+[2025-06-13 08:20:55.374] timestamp(1749817255371), ini, 3, inicio-juego
+[2025-06-13 08:21:10.266] timestamp(1749817270266), ini, 3, crea-jugador, sin_equipo, 32
+[2025-06-13 08:21:10.270] timestamp(1749817270269), fin, 3, crea-jugador, sin_equipo, 32
+[2025-06-13 08:21:15.783] timestamp(1749817275787), ini, 3, crea-equipo, red, 23
+[2025-06-13 08:21:15.790] timestamp(1749817275790), fin, 3, crea-equipo, red, 23
+[2025-06-13 08:21:56.307] timestamp(1749817316309), ini, 3, crea-jugador, sin_equipo, 2312
+[2025-06-13 08:21:56.314] timestamp(1749817316313), fin, 3, crea-jugador, sin_equipo, 2312
+[2025-06-13 08:26:41.958] timestamp(1749817601957), fin, 3, fin-juego
+[2025-06-13 08:26:59.961] timestamp(1749817619962), ini, 34, inicio-juego
+[2025-06-13 08:27:02.452] timestamp(1749817622455), ini, 34, crea-equipo, red, 324
+[2025-06-13 08:27:02.459] timestamp(1749817622458), fin, 34, crea-equipo, red, 324
+[2025-06-13 08:27:15.076] timestamp(1749817635074), ini, 34, crea-jugador, sin_equipo, 32145
+[2025-06-13 08:27:15.078] timestamp(1749817635078), fin, 34, crea-jugador, sin_equipo, 32145
+[2025-06-13 08:28:54.623] timestamp(1749817734621), ini, 34, une-equipo, red, 32145
+[2025-06-13 08:28:54.627] timestamp(1749817734626), fin, 34, une-equipo, red, 32145
+[2025-06-13 08:30:42.187] timestamp(1749817842191), fin, 34, fin-juego

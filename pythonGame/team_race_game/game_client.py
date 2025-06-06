@@ -6,6 +6,7 @@ import socket
 import json
 import threading
 import time
+import sys
 
 class GameClient:
     def __init__(self, host='localhost', port=12345):
@@ -16,6 +17,8 @@ class GameClient:
         self.current_game = None
         self.current_team = None
         self.running = False
+        self.last_prompt_time = time.time()
+        self.needs_reprompt = False
         
     def connect(self):
         try:
@@ -41,41 +44,127 @@ class GameClient:
             self.socket.close()
     
     def send_request(self, request):
+        if not self.socket:
+            print("❌ No hay conexión al servidor")
+            return None
+        
         try:
-            # AGREGAR \n al final del mensaje
-            print(f"📤 Enviando solicitud: {request}")
+            # Bloquear temporalmente al thread de notificaciones
+            self.waiting_response = True
+            
             message = json.dumps(request) + '\n'
+            print(f"📤 Enviando solicitud: {request}")
             self.socket.send(message.encode('utf-8'))
             
-            self.socket.settimeout(10)  # Establecer timeout para la respuesta
-            response_data = self.socket.recv(4096).decode('utf-8')
-            if not response_data:
-                return {"status": "error", "message": "No response received"}
+            # Buffer para acumular datos
+            buffer = ""
+            self.socket.settimeout(5.0)
             
-            try:
-                parsed_response = json.loads(response_data)
-                print(f"🔍 JSON parseado: {parsed_response}")  # ← AGREGAR DEBUG
-                return parsed_response
-            except json.JSONDecodeError:
-                print(f"⚠️ No es JSON válido, tratando como texto: '{response_data}'")
-                # Si no es JSON válido, crear respuesta estructurada
-                return {"status": "ok", "message": response_data}
+            # Leer hasta encontrar al menos un mensaje completo
+            while '\n' not in buffer:
+                data = self.socket.recv(4096).decode('utf-8')
+                if not data:
+                    break
+                buffer += data
+            
+            print(f"📥 Buffer completo recibido: {buffer}\n")
+
+            # Separar todos los mensajes
+            messages = []
+            temp_buffer = buffer
+            while '\n' in temp_buffer:
+                msg, temp_buffer = temp_buffer.split('\n', 1)
+                if msg.strip():
+                    try:
+                        parsed_msg = json.loads(msg)
+                        messages.append(parsed_msg)
+                    except json.JSONDecodeError:
+                        print(f"⚠️ Error parseando mensaje: {msg}")
+            
+            # Identificar la respuesta correcta y las notificaciones
+            main_response = None
+            notifications = []
+            
+            for msg in messages:
+                if 'status' in msg:
+                    # Esto es una respuesta directa
+                    main_response = msg
+                    print(f"📥 Respuesta principal: {msg}")
+                elif msg.get('type') == 'notification':
+                    # Esto es una notificación
+                    notifications.append(msg)
+                    print(f"📣 Notificación recibida: {msg}")
+            
+            # Procesar notificaciones
+            for notification in notifications:
+                self.handle_notification(notification.get('data', {}))
+            # Retornar la respuesta principal
+            if main_response:
+                return main_response
+            elif messages:
+                # Si no hay respuesta con 'status', usar el primer mensaje
+                return messages[0]
+            else:
+                print("⚠️ No se recibieron mensajes válidos")
+                return None
+            
         except socket.timeout:
-            print("⏰ Timeout esperando respuesta del servidor")  # ← AGREGAR DEBUG
-            return {"status": "error", "message": "Request timed out"}
+            print("⏰ Timeout esperando respuesta del servidor")
+            return None
+        except json.JSONDecodeError as e:
+            print(f"❌ Error decodificando JSON: {e}")
+            return None
         except Exception as e:
-            print(f"❌ Error en comunicación: {e}")  # ← AGREGAR DEBUG
-            return {"status": "error", "message": str(e)}
+            print(f"❌ Error en la comunicación: {e}")
+            return None
+        finally:
+            self.waiting_response = False
+                    
     
+    def process_remaining_data(self, data):
+        """Procesa cualquier dato adicional recibido en send_request"""
+        # Dividir por líneas y procesar cada mensaje completo
+        buffer = data
+        print(f"\n📥 datos: {buffer}")  # ← AGREGAR DEBUG
+        while '\n' in buffer:
+            message, buffer = buffer.split('\n', 1)
+            if message.strip():  # Ignorar líneas vacías
+                try:
+                    notification = json.loads(message)
+                    if notification.get('type') == 'notification':
+                        self.handle_notification(notification.get('data', {}))
+                        print(f"\n📥 Mensaje adicional procesado: {notification}")
+                    else:
+                        print(f"\n⚠️ Mensaje adicional no procesado: {notification}")
+                        
+                except json.JSONDecodeError:
+                    print(f"\n⚠️ Datos adicionales no son JSON válido: {message}")
+                    sys.stdout.flush()
+        # Limpiar el buffer
+        # Si queda algo en el buffer, guardarlo para procesar después
+        if buffer.strip():
+            # Aquí podrías implementar un mecanismo para guardar este buffer residual
+            print(f"\n⚠️ Datos incompletos en buffer: {buffer}")
+            sys.stdout.flush()
+
+
     def receive_notifications(self):
         while self.running:
             try:
+
+                if hasattr(self, 'waiting_response') and self.waiting_response:
+                    time.sleep(0.1)  # Esperar y no leer del socket
+                    continue
+                
+                self.socket.settimeout(0.1)
                 data = self.socket.recv(4096).decode('utf-8')
                 if data:
                     notification = json.loads(data)
                     if notification.get('type') == 'notification':
                         self.handle_notification(notification['data'])
-                if not data: print("Servidor cerró la conexión.");
+                if not data: 
+                    print("Servidor cerró la conexión.");
+                    sys.stdout.flush()
             except:
                 break
     
@@ -84,39 +173,70 @@ class GameClient:
         
         if msg_type == 'team_created':
             print(f"\n🎉 Nuevo equipo creado: '{data['team_name']}' por {data['creator']}")
-        
+            sys.stdout.flush()
+
         elif msg_type == 'team_member_added':
             print(f"\n👥 {data['player']} se ha unido al equipo '{data['team_name']}'")
-        
+            sys.stdout.flush()
         elif msg_type == 'vote_request':
+            sys.stdout.flush()
             print(f"\n🗳️  VOTACIÓN: {data['message']}")
             print(f"   Usa el comando: votar_equipo {data['vote_id']} si|no")
-        
+            print("\n")
+            sys.stdout.flush()
         elif msg_type == 'team_join_result':
             if data['status'] == 'accepted':
                 print(f"\n✅ {data['message']}")
                 self.current_team = data.get('team_name')
+                sys.stdout.flush()
             else:
                 print(f"\n❌ {data['message']}")
+                sys.stdout.flush()
         
         elif msg_type == 'game_started':
             print(f"\n🎮 {data['message']}")
+            sys.stdout.flush()
         
         elif msg_type == 'turn_played':
             print(f"\n🎲 {data['player']} del equipo {data['team']} tiró {data['roll']}")
             print(f"   Equipo {data['team']} ahora en posición {data['new_position']}")
             print(f"   Siguiente turno: {data['next_turn']}")
+            sys.stdout.flush()
         
         elif msg_type == 'game_finished':
             print(f"\n🏆 {data['message']}")
+            sys.stdout.flush()
         
         elif msg_type == 'game_closed':
             print(f"\n⚠️  {data['message']}")
             self.current_game = None
             self.current_team = None
+            sys.stdout.flush()
         
-        print("\n> ", end="", flush=True)
+        sys.stdout.flush()
+
+        self.needs_reprompt = True
     
+    def get_input_with_live_updates(self, prompt):
+        """Input que permite mostrar notificaciones mientras espera"""
+        print(prompt, end='', flush=True)
+        
+        # Thread para rehacer el prompt cuando lleguen notificaciones
+        def reprompt_handler():
+            while True:
+                time.sleep(0.1)
+                if self.needs_reprompt:
+                    print(f"\n{prompt}", end='', flush=True)
+                    self.needs_reprompt = False
+        
+        # Iniciar el thread de reprompt
+        reprompt_thread = threading.Thread(target=reprompt_handler, daemon=True)
+        reprompt_thread.start()
+        
+        # Obtener input normalmente
+        return input()
+
+
     def set_player_name(self, name):
         request = {
             "command": "set_player_name",
@@ -130,6 +250,38 @@ class GameClient:
             print(f"Error estableciendo nombre: {response.get('message', 'Error desconocido')}")
             return False
     
+    def refresh_connection(self):
+        """Envía una solicitud de refresco al servidor y limpia el buffer."""
+        print("🔄 Refrescando conexión...")
+        
+        # Primero, vaciar cualquier dato pendiente en el socket
+        if self.socket:
+            try:
+                # Cambiamos a modo no bloqueante temporalmente
+                self.socket.setblocking(False)
+                try:
+                    # Intentamos leer y descartar datos hasta que no haya más
+                    while True:
+                        data = self.socket.recv(4096)
+                        if not data:
+                            break
+                        print(f"🧹 Limpiando buffer: {len(data)} bytes")
+                except BlockingIOError:
+                    # No hay más datos para leer
+                    pass
+                finally:
+                    # Volvemos a modo bloqueante
+                    self.socket.setblocking(True)
+
+                
+            except Exception as e:
+                print(f"❌ Error al refrescar la conexión: {e}")
+                return None
+        else:
+            print("❌ No hay conexión al servidor")
+            return None
+
+
     def create_game(self, game_name, max_teams, max_players_per_team, board_length, min_dice, max_dice):
         request = {
             "command": "create_game",
@@ -202,27 +354,51 @@ class GameClient:
     
     def list_teams(self):
         request = {"command": "list_teams"}
-        return self.send_request(request)
+        response = self.send_request(request)
+        if 'status' in response:
+            return response
     
     def game_status(self):
         request = {"command": "game_status"}
-        return self.send_request(request)
+        response = self.send_request(request)
+        if 'status' in response:
+            return response
     
     def vote_start(self):
+        teams_response = self.list_teams()
+
+        if teams_response and 'status' in teams_response and teams_response['status'] == 'ok':
+            teams = teams_response.get('teams', [])
+            if len(teams) < 2:
+                return {
+                    "status": "error", 
+                    "message": "Se necesitan al menos 2 equipos para iniciar el juego."
+                }
+        
         request = {"command": "vote_start"}
+        
         return self.send_request(request)
     
     def roll_dice(self):
         request = {"command": "roll_dice"}
-        return self.send_request(request)
+        response = self.send_request(request)
+        if not response:
+            return {"status": "error", "message": "No se recibió respuesta del servidor"}
+    
+        # Si la respuesta no tiene 'status', es probablemente una notificación
+        if 'status' not in response:
+            return {"status": "error", "message": "Solo se recibió una notificación, no una respuesta"}
+        
+        return response
     
     def leave_game(self):
         request = {"command": "leave_game"}
         response = self.send_request(request)
-        if response['status'] == 'ok':
-            self.current_game = None
-            self.current_team = None
-        return response
+        if 'status' in response:
+            if response['status'] == 'ok':
+                self.current_game = None
+                self.current_team = None
+            return response
     
     def vote_team_join(self, vote_id, vote):
         request = {
@@ -230,6 +406,7 @@ class GameClient:
             "vote_id": vote_id,
             "vote": vote
         }
+        print(f"🗳️  El otro usuario debe votar con votar_equipo {vote_id} si|no")
         return self.send_request(request)
     
     def show_main_menu(self):
@@ -301,13 +478,20 @@ class GameClient:
             choice = input("Elige una opción: ").strip()
             
             if choice == '1':
+    
                 self.create_game_flow()
             elif choice == '2':
+                
                 self.join_game_flow()
             elif choice == '3':
+                
                 self.list_games_flow()
             elif choice == '4':
+                
                 self.running = False
+            elif choice == "":
+                self.refresh_connection()
+                continue
             else:
                 print("❌ Opción inválida")
     
@@ -315,20 +499,33 @@ class GameClient:
         while self.running and self.current_game:
             self.show_game_menu()
             choice = input("Elige una opción: ").strip().lower()
-            
-            if choice == '1' and not self.current_team:
+
+            if choice == "" and not self.current_team:
+                self.refresh_connection()
+                continue
+            elif choice == "" and self.current_team:
+                self.refresh_connection()
+                continue
+            elif choice == '1' and not self.current_team:
+    
                 self.create_team_flow()
             elif choice == '2' and not self.current_team:
+                
                 self.join_team_flow()
             elif choice == '3':
+               
                 self.list_teams_flow()
             elif choice == '4':
+                
                 self.game_status_flow()
             elif choice == '5':
+                
                 self.vote_start_flow()
             elif choice == '6':
+                
                 self.roll_dice_flow()
             elif choice == '7':
+                
                 self.leave_game_flow()
             elif choice.startswith('votar_equipo'):
                 # Comando especial para votaciones
@@ -338,13 +535,14 @@ class GameClient:
                     vote = parts[2]
                     if vote in ['si', 'no']:
                         response = self.vote_team_join(vote_id, vote)
-                        print(f"📝 {response.get('message', 'Voto procesado')}")
+                        print(f"📝 {response.get('message')}")
                     else:
                         print("❌ Voto debe ser 'si' o 'no'")
                 else:
                     print("❌ Formato: votar_equipo <vote_id> si|no")
             else:
                 print("❌ Opción inválida")
+            
     
     def create_game_flow(self):
         try:
@@ -394,6 +592,8 @@ class GameClient:
         else:
             print(f"❌ {response['message']}")
     
+    # Agregar esta opción al menú del juego
+
     def create_team_flow(self):
         team_name = input("Nombre del equipo: ").strip()
         if team_name:
@@ -456,6 +656,13 @@ class GameClient:
         status = response.get('status', '')
         if status in ['ok', 'success']:
             message = response.get('message', f"Solicitud enviada para unirse a '{team_name}'")
+            
+            if 'vote_id' in response:
+                vote_id = response.get('vote_id')
+                print(f"\n🗳️  IMPORTANTE: El vote_id de tu solicitud es: {vote_id}")
+                print(f"   Los miembros del equipo deben usar: votar_equipo {vote_id} si|no\n")
+        
+
             # Solo actualizar current_team si la unión fue inmediata
             if 'unido' in message.lower() or 'aceptado' in message.lower():
                 self.current_team = team_name
@@ -533,8 +740,8 @@ class GameClient:
         else:
             message = response.get('message', 'Error consultando estado')
             print(f"❌ {message}")  
+       
 
-          
     def vote_start_flow(self):
         response = self.vote_start()
         status = response.get('status', '')
@@ -563,19 +770,19 @@ class GameClient:
         message = response.get('message', '')
     
         if status == 'ok':
-            print(f"🎲 {message}")
+            print(f"")
             
             # Mostrar detalles adicionales si están disponibles
-            if 'roll' in response:
-                print(f"   Dados totales: {response['roll']}")
-            if 'new_position' in response:
-                print(f"   Nueva posición: {response['new_position']}")
-            if 'next_turn' in response:
-                print(f"   Siguiente turno: {response['next_turn']}")
+            #if 'roll' in response:
+            #   print(f"   Dados totales: {response['roll']}")
+            #if 'new_position' in response:
+            #    print(f"   Nueva posición: {response['new_position']}")
+            #if 'next_turn' in response:
+            #    print(f"   Siguiente turno: {response['next_turn']}")
         else:
             if not message:
                 message = "No se pudo procesar el lanzamiento"
-            print(f"❌ {message}")
+            print(f"")
     
     def leave_game_flow(self):
         response = self.leave_game()

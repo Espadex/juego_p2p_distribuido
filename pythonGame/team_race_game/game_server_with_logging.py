@@ -173,11 +173,11 @@ class GameServer:
                     if 'current_game' in response:
                         current_game = response['current_game']
                     
-                    client_socket.send(json.dumps(response).encode('utf-8'))
+                    client_socket.send((json.dumps(response) + '\n').encode('utf-8'))
                     
                 except json.JSONDecodeError:
                     error_response = {"status": "error", "message": "Formato JSON inválido"}
-                    client_socket.send(json.dumps(error_response).encode('utf-8'))
+                    client_socket.send((json.dumps(error_response) + '\n').encode('utf-8'))
                     
         except Exception as e:
             print(f"❌ Error manejando cliente: {e}")
@@ -337,7 +337,7 @@ class GameServer:
             return {"status": "error", "message": "Ya estás en un equipo"}
         
         # Iniciar votación para unirse al equipo
-        vote_id = f"{current_game}_{team_name}_{player_name}_{int(time.time())}"
+        vote_id = player_name
         game.pending_votes[vote_id] = {
             "type": "join_team",
             "team_name": team_name,
@@ -357,7 +357,7 @@ class GameServer:
         return {"status": "ok", "message": f"Solicitud enviada al equipo '{team_name}'. Esperando votación..."}
     
     def vote_team_join(self, request, player_name, current_game):
-        vote_id = request.get('vote_id')
+        vote_id = player_name
         vote = request.get('vote')  # 'si' o 'no'
         
         if not current_game or current_game not in self.games:
@@ -632,7 +632,7 @@ class GameServer:
                     "type": "notification",
                     "data": message
                 }
-                self.client_sockets[player_name].send(json.dumps(notification).encode('utf-8'))
+                self.client_sockets[player_name].send((json.dumps(notification)+'\n').encode('utf-8'))
             except:
                 # Cliente desconectado
                 if player_name in self.client_sockets:

@@ -1,4 +1,11 @@
 @echo off
+rem -------------------------------------------------
+rem Ajusta aquí la ruta a tu JDK 24
+set "JAVA_HOME=C:\Program Files\Java\jdk-24"
+set "PATH=%JAVA_HOME%\bin;%PATH%"
+rem -------------------------------------------------
+
+
 echo ================================
 echo Starting RMI Logging Server
 echo ================================

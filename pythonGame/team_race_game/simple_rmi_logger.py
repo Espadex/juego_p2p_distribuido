@@ -6,6 +6,7 @@ import socket
 import json
 import time
 import threading
+import uuid
 from datetime import datetime
 
 class SimpleRMILogger:
