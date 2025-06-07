@@ -124,3 +124,61 @@
 === SERVIDOR DE LOGS INICIADO ===
 === SERVIDOR DE LOGS INICIADO ===
 === SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+[2025-06-06 21:05:32.935] timestamp(1749258332915), ini, partida1, inicio-juego
+[2025-06-06 21:05:46.724] timestamp(1749258346724), ini, partida1, crea-equipo, team1, Pedro
+[2025-06-06 21:05:46.726] timestamp(1749258346725), fin, partida1, crea-equipo, team1, Pedro
+[2025-06-06 21:09:07.185] timestamp(1749258547183), fin, partida1, fin-juego
+[2025-06-06 21:10:03.581] timestamp(1749258603579), ini, partida1, inicio-juego
+[2025-06-06 21:10:23.329] timestamp(1749258623328), ini, partida1, crea-equipo, team1, pedro
+[2025-06-06 21:10:23.331] timestamp(1749258623331), fin, partida1, crea-equipo, team1, pedro
+[2025-06-06 21:10:37.789] timestamp(1749258637788), ini, partida1, crea-jugador, sin_equipo, juan
+[2025-06-06 21:10:37.791] timestamp(1749258637790), fin, partida1, crea-jugador, sin_equipo, juan
+[2025-06-06 21:10:47.664] timestamp(1749258647663), ini, partida1, crea-equipo, team2, juan
+[2025-06-06 21:10:47.665] timestamp(1749258647665), fin, partida1, crea-equipo, team2, juan
+[2025-06-06 21:12:07.138] timestamp(1749258727136), ini, partida1, lanza-dado, team1, pedro, 6
+[2025-06-06 21:12:07.140] timestamp(1749258727139), fin, partida1, lanza-dado, team1, pedro, 6
+[2025-06-06 21:12:26.341] timestamp(1749258746340), ini, partida1, lanza-dado, team2, juan, 12
+[2025-06-06 21:12:26.343] timestamp(1749258746342), fin, partida1, lanza-dado, team2, juan, 12
+[2025-06-06 21:12:33.562] timestamp(1749258753561), ini, partida1, lanza-dado, team1, pedro, 12
+[2025-06-06 21:12:33.564] timestamp(1749258753563), fin, partida1, lanza-dado, team1, pedro, 12
+[2025-06-06 21:12:39.744] timestamp(1749258759743), ini, partida1, lanza-dado, team2, juan, 3
+[2025-06-06 21:12:39.745] timestamp(1749258759745), fin, partida1, lanza-dado, team2, juan, 3
+[2025-06-06 21:12:45.551] timestamp(1749258765550), ini, partida1, lanza-dado, team1, pedro, 19
+[2025-06-06 21:12:45.552] timestamp(1749258765552), fin, partida1, lanza-dado, team1, pedro, 19
+[2025-06-06 21:12:56.121] timestamp(1749258776120), ini, partida1, lanza-dado, team2, juan, 19
+[2025-06-06 21:12:56.123] timestamp(1749258776122), fin, partida1, lanza-dado, team2, juan, 19
+[2025-06-06 21:13:00.357] timestamp(1749258780356), ini, partida1, lanza-dado, team1, pedro, 20
+[2025-06-06 21:13:00.358] timestamp(1749258780358), fin, partida1, lanza-dado, team1, pedro, 20
+[2025-06-06 21:13:13.292] timestamp(1749258793291), ini, partida1, lanza-dado, team2, juan, 1
+[2025-06-06 21:13:13.294] timestamp(1749258793293), fin, partida1, lanza-dado, team2, juan, 1
+[2025-06-06 21:13:22.566] timestamp(1749258802565), ini, partida1, lanza-dado, team1, pedro, 6
+[2025-06-06 21:13:22.567] timestamp(1749258802567), fin, partida1, lanza-dado, team1, pedro, 6
+[2025-06-06 21:13:26.332] timestamp(1749258806331), ini, partida1, lanza-dado, team2, juan, 12
+[2025-06-06 21:13:26.333] timestamp(1749258806333), fin, partida1, lanza-dado, team2, juan, 12
+[2025-06-06 21:13:29.342] timestamp(1749258809341), ini, partida1, lanza-dado, team1, pedro, 2
+[2025-06-06 21:13:29.343] timestamp(1749258809343), fin, partida1, lanza-dado, team1, pedro, 2
+[2025-06-06 21:13:32.945] timestamp(1749258812944), ini, partida1, lanza-dado, team2, juan, 17
+[2025-06-06 21:13:32.946] timestamp(1749258812946), fin, partida1, lanza-dado, team2, juan, 17
+[2025-06-06 21:13:36.012] timestamp(1749258816011), ini, partida1, lanza-dado, team1, pedro, 1
+[2025-06-06 21:13:36.013] timestamp(1749258816013), fin, partida1, lanza-dado, team1, pedro, 1
+[2025-06-06 21:13:39.416] timestamp(1749258819415), ini, partida1, lanza-dado, team2, juan, 19
+[2025-06-06 21:13:39.417] timestamp(1749258819417), fin, partida1, lanza-dado, team2, juan, 19
+[2025-06-06 21:13:42.492] timestamp(1749258822492), ini, partida1, lanza-dado, team1, pedro, 1
+[2025-06-06 21:13:42.494] timestamp(1749258822493), fin, partida1, lanza-dado, team1, pedro, 1
+[2025-06-06 21:13:47.079] timestamp(1749258827078), ini, partida1, lanza-dado, team2, juan, 4
+[2025-06-06 21:13:47.080] timestamp(1749258827080), fin, partida1, lanza-dado, team2, juan, 4
+[2025-06-06 21:13:50.454] timestamp(1749258830453), ini, partida1, lanza-dado, team1, pedro, 15
+[2025-06-06 21:13:50.455] timestamp(1749258830455), fin, partida1, lanza-dado, team1, pedro, 15
+[2025-06-06 21:13:54.134] timestamp(1749258834133), ini, partida1, lanza-dado, team2, juan, 11
+[2025-06-06 21:13:54.136] timestamp(1749258834135), fin, partida1, lanza-dado, team2, juan, 11
+[2025-06-06 21:13:57.535] timestamp(1749258837534), ini, partida1, lanza-dado, team1, pedro, 16
+[2025-06-06 21:13:57.536] timestamp(1749258837536), fin, partida1, lanza-dado, team1, pedro, 16
+[2025-06-06 21:14:01.257] timestamp(1749258841256), ini, partida1, lanza-dado, team2, juan, 20
+[2025-06-06 21:14:01.258] timestamp(1749258841258), fin, partida1, lanza-dado, team2, juan, 20
+[2025-06-06 21:14:01.259] timestamp(1749258841259), ini, partida1, equipo-gana, team2
+[2025-06-06 21:14:01.260] timestamp(1749258841260), fin, partida1, equipo-gana, team2
+[2025-06-06 21:14:01.262] timestamp(1749258841261), fin, partida1, fin-juego
+[2025-06-06 21:16:21.625] timestamp(1749258981623), fin, partida1, fin-juego
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===

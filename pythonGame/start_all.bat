@@ -24,6 +24,8 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
+cd ..
+
 REM Step 2: Start RMI Server
 echo.
 echo ================================
@@ -33,8 +35,8 @@ echo Starting RMI server in a new window...
 start "RMI Logging Server" cmd /k run_rmi_server.bat
 
 REM Wait for RMI server to start
-echo Waiting 5 seconds for RMI server to initialize...
-timeout /t 5 /nobreak > nul
+echo Waiting 10 seconds for RMI server to initialize...
+timeout /t 10 /nobreak > nul
 
 REM Step 3: Start RMI Proxy
 echo.
