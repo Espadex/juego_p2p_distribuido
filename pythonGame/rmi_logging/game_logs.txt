@@ -1,0 +1,126 @@
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+[2025-06-05 20:17:23.198] timestamp(1749169038172), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:18:26.253] timestamp(1749169101246), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:21:59.947] timestamp(1749169314931), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:26:50.881] timestamp(1749169605870), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:27:20.224] timestamp(1749169635210), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:28:10.013] timestamp(1749169680001), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:28:59.809] timestamp(1749169729807), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:34:07.663] timestamp(1749170037653), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:35:28.226] timestamp(1749170118212), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:36:32.723] timestamp(1749170182711), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:42:09.446] timestamp(1749170524434), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:44:38.329] timestamp(1749170673319), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:47:12.696] timestamp(1749170832694), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 20:53:00.505] timestamp(1749171180504), ini, DemoGame, inicio-juego
+[2025-06-05 20:53:00.508] timestamp(1749171180507), ini, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 20:53:00.511] timestamp(1749171180509), fin, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 20:53:02.508] timestamp(1749171182507), ini, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 20:53:02.511] timestamp(1749171182511), fin, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 20:53:03.520] timestamp(1749171183519), ini, DemoGame, crea-equipo, Rojos, Alice
+[2025-06-05 20:53:03.522] timestamp(1749171183522), fin, DemoGame, crea-equipo, Rojos, Alice
+[2025-06-05 20:53:04.515] timestamp(1749171184514), ini, DemoGame, crea-equipo, Azules, Bob
+[2025-06-05 20:53:04.517] timestamp(1749171184516), fin, DemoGame, crea-equipo, Azules, Bob
+[2025-06-05 20:53:05.513] timestamp(1749171185512), ini, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 20:53:05.515] timestamp(1749171185515), fin, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 20:53:06.508] timestamp(1749171186507), ini, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 20:53:06.511] timestamp(1749171186511), fin, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 20:53:08.513] timestamp(1749171188513), ini, DemoGame, crea-equipo, Azules, Diana
+[2025-06-05 20:53:08.517] timestamp(1749171188515), ini, DemoGame, crea-equipo, Rojos, Charlie
+[2025-06-05 20:53:08.518] timestamp(1749171188516), fin, DemoGame, crea-equipo, Azules, Diana
+[2025-06-05 20:53:08.520] timestamp(1749171188518), fin, DemoGame, crea-equipo, Rojos, Charlie
+[2025-06-05 21:05:08.530] timestamp(1749171908528), ini, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 21:05:08.532] timestamp(1749171908532), fin, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 21:05:10.531] timestamp(1749171910530), ini, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 21:05:10.533] timestamp(1749171910532), fin, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 21:05:10.534] timestamp(1749171910534), ini, DemoGame, crea-equipo, Rojos, Alice
+[2025-06-05 21:05:10.535] timestamp(1749171910535), fin, DemoGame, crea-equipo, Rojos, Alice
+[2025-06-05 21:05:12.530] timestamp(1749171912531), ini, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 21:05:12.533] timestamp(1749171912533), fin, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 21:05:12.534] timestamp(1749171912534), ini, DemoGame, crea-equipo, Azules, Bob
+[2025-06-05 21:05:12.535] timestamp(1749171912536), fin, DemoGame, crea-equipo, Azules, Bob
+[2025-06-05 21:05:14.533] timestamp(1749171914533), ini, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 21:05:14.536] timestamp(1749171914535), ini, DemoGame, crea-equipo, Rojos, Charlie
+[2025-06-05 21:05:14.537] timestamp(1749171914535), fin, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 21:05:16.540] timestamp(1749171916539), ini, DemoGame, crea-equipo, Azules, Diana
+[2025-06-05 21:10:34.973] timestamp(1749172234970), ini, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 21:10:34.975] timestamp(1749172234975), fin, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 21:10:36.973] timestamp(1749172236972), ini, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 21:10:36.977] timestamp(1749172236976), fin, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 21:10:36.980] timestamp(1749172236978), ini, DemoGame, crea-equipo, Rojos, Alice
+[2025-06-05 21:10:36.982] timestamp(1749172236981), fin, DemoGame, crea-equipo, Rojos, Alice
+[2025-06-05 21:10:38.972] timestamp(1749172238971), ini, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 21:10:38.974] timestamp(1749172238974), fin, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 21:10:40.975] timestamp(1749172240974), ini, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 21:10:40.976] timestamp(1749172240976), fin, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 21:10:42.981] timestamp(1749172242979), ini, DemoGame, crea-equipo, Azules, Diana
+[2025-06-05 21:10:42.982] timestamp(1749172242982), fin, DemoGame, crea-equipo, Azules, Diana
+[2025-06-05 21:22:39.720] timestamp(1749172959718), ini, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 21:22:39.725] timestamp(1749172959724), fin, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 21:22:41.722] timestamp(1749172961720), ini, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 21:22:41.726] timestamp(1749172961724), fin, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 21:22:43.723] timestamp(1749172963721), ini, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 21:22:43.725] timestamp(1749172963725), fin, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 21:22:53.734] timestamp(1749172973734), ini, DemoGame, crea-equipo, Azules, Bob
+[2025-06-05 21:22:53.736] timestamp(1749172973736), fin, DemoGame, crea-equipo, Azules, Bob
+[2025-06-05 21:22:55.722] timestamp(1749172975723), ini, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 21:22:55.725] timestamp(1749172975725), ini, DemoGame, crea-equipo, Rojos, Charlie
+[2025-06-05 21:22:55.726] timestamp(1749172975725), fin, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 21:22:55.727] timestamp(1749172975726), fin, DemoGame, crea-equipo, Rojos, Charlie
+[2025-06-05 21:23:07.740] timestamp(1749172987740), ini, DemoGame, crea-equipo, Azules, Diana
+[2025-06-05 21:23:07.744] timestamp(1749172987743), fin, DemoGame, crea-equipo, Azules, Diana
+[2025-06-05 21:31:38.831] timestamp(1749173498829), ini, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 21:31:38.832] timestamp(1749173498832), fin, DemoGame, crea-jugador, sin_equipo, Alice
+[2025-06-05 21:31:41.835] timestamp(1749173501834), ini, DemoGame, crea-equipo, Rojos, Alice
+[2025-06-05 21:31:41.837] timestamp(1749173501836), fin, DemoGame, crea-equipo, Rojos, Alice
+[2025-06-05 21:31:43.831] timestamp(1749173503830), ini, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 21:31:43.833] timestamp(1749173503832), fin, DemoGame, crea-jugador, sin_equipo, Bob
+[2025-06-05 21:31:51.833] timestamp(1749173511832), ini, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 21:31:51.836] timestamp(1749173511836), fin, DemoGame, crea-jugador, sin_equipo, Charlie
+[2025-06-05 21:31:56.838] timestamp(1749173516838), ini, DemoGame, crea-equipo, Azules, Bob
+[2025-06-05 21:31:56.839] timestamp(1749173516840), fin, DemoGame, crea-equipo, Azules, Bob
+[2025-06-05 21:32:02.834] timestamp(1749173522833), ini, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 21:32:02.838] timestamp(1749173522837), fin, DemoGame, crea-jugador, sin_equipo, Diana
+[2025-06-05 21:51:46.928] timestamp(1749174706927), ini, TEST, system_test, System startup verification, connectivity_test
+[2025-06-05 21:58:29.425] timestamp(1749175109424), ini, puwu, inicio-juego
+[2025-06-05 21:59:08.745] timestamp(1749175148744), ini, puwu, crea-jugador, sin_equipo, owo2
+[2025-06-05 21:59:08.747] timestamp(1749175148747), fin, puwu, crea-jugador, sin_equipo, owo2
+[2025-06-05 21:59:35.534] timestamp(1749175175534), ini, puwu, crea-equipo, rojo, owo
+[2025-06-05 21:59:35.536] timestamp(1749175175536), fin, puwu, crea-equipo, rojo, owo
+[2025-06-05 22:19:00.243] timestamp(1749176340242), ini, owo, inicio-juego
+[2025-06-05 22:19:06.387] timestamp(1749176346387), ini, owo, crea-equipo, rojo, renton
+[2025-06-05 22:19:06.389] timestamp(1749176346389), fin, owo, crea-equipo, rojo, renton
+[2025-06-05 22:40:35.904] timestamp(1749177635903), ini, puwu, inicio-juego
+[2025-06-05 22:41:12.676] timestamp(1749177672675), ini, owo3, inicio-juego
+[2025-06-05 22:41:19.082] timestamp(1749177679082), ini, owo3, crea-equipo, rojo, owo
+[2025-06-05 22:41:19.084] timestamp(1749177679083), fin, owo3, crea-equipo, rojo, owo
+[2025-06-05 22:43:13.106] timestamp(1749177793104), ini, owosito, inicio-juego
+[2025-06-05 22:43:16.545] timestamp(1749177796545), ini, owosito, crea-equipo, rojo, pene
+[2025-06-05 22:43:16.546] timestamp(1749177796546), fin, owosito, crea-equipo, rojo, pene
+[2025-06-05 22:47:16.065] timestamp(1749178036064), ini, rojo2, inicio-juego
+[2025-06-05 22:47:22.927] timestamp(1749178042927), ini, rojo2, crea-equipo, rojos, owo
+[2025-06-05 22:47:22.930] timestamp(1749178042930), fin, rojo2, crea-equipo, rojos, owo
+[2025-06-05 22:49:05.972] timestamp(1749178145971), ini, rojo3, inicio-juego
+[2025-06-05 22:49:09.476] timestamp(1749178149476), ini, rojo3, crea-equipo, rojo, owo15
+[2025-06-05 22:49:09.477] timestamp(1749178149477), fin, rojo3, crea-equipo, rojo, owo15
+[2025-06-05 22:50:53.645] timestamp(1749178253644), ini, rojo15, inicio-juego
+[2025-06-05 22:50:59.046] timestamp(1749178259045), ini, rojo15, crea-equipo, azul, rojo
+[2025-06-05 22:50:59.047] timestamp(1749178259047), fin, rojo15, crea-equipo, azul, rojo
+[2025-06-05 22:51:28.051] timestamp(1749178288051), ini, rojo15, crea-equipo, verde, rojo
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
+=== SERVIDOR DE LOGS INICIADO ===
