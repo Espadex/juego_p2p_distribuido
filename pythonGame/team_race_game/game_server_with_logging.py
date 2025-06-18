@@ -357,7 +357,7 @@ class GameServer:
         return {"status": "ok", "message": f"Solicitud enviada al equipo '{team_name}'. Esperando votación..."}
     
     def vote_team_join(self, request, player_name, current_game):
-        vote_id = player_name
+        vote_id = request.get('vote_id')
         vote = request.get('vote')  # 'si' o 'no'
         
         if not current_game or current_game not in self.games:
